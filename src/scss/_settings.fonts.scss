@@ -1,0 +1,22 @@
+// Typography etc.
+
+// @font-face {
+//     font-family: 'FONT_NAME';
+//     src: url('../fonts/FONT_NAME/FONT_NAME.eot');
+//     src: url('../fonts/FONT_NAME/FONT_NAME.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/FONT_NAME/FONT_NAME.woff') format('woff'),
+//         url('../fonts/FONT_NAME/FONT_NAME.woff2') format('woff2'),
+//         url('../fonts/FONT_NAME/FONT_NAME.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// Fonts
+$display: Helvetica, Arial, sans-serif;
+$text: Helvetica, Arial, sans-serif;
+$utility: $text;
+$code: $utility;
+
+// Weights
+$fontweight--book: 400;
+$fontweight--black: 700;

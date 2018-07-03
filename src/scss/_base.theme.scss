@@ -1,0 +1,13 @@
+body {
+    font-family: $text;
+    color: $black;
+}
+
+a {
+    text-decoration: none;
+    color: $red;
+    transition: color 0.2s;
+    &:hover {
+        color: $black;
+    }
+}
