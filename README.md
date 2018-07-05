@@ -1,3 +1,3 @@
-# React Boilerplate
+# Rugby Data
 
-A playground and/or jumping-off-point for experiments using React.js
+A React app to explore stats from the 6 Nations championship.
