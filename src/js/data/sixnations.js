@@ -1,5 +1,5 @@
-const sixNationsData = {
-    Y_2018: {
+const sixNationsData = [
+    {
         year: 2018,
         teams: ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'],
         matches: [
@@ -365,7 +365,7 @@ const sixNationsData = {
             }
         ]
     },
-    Y_2017: {
+    {
         year: 2017,
         teams: ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'],
         matches: [
@@ -731,6 +731,6 @@ const sixNationsData = {
             }
         ]
     }
-};
+];
 
 export default sixNationsData;
