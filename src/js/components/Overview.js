@@ -1,6 +1,7 @@
 import React from 'react';
 
 import teamStats, { sortResults } from '../tools/dataWranglers';
+import { ordinal, teamNames } from '../tools/helpers';
 
 import sixNationsData from '../data/sixnations';
 
@@ -18,7 +19,7 @@ class Overview extends React.Component {
             let stats = teamStats(year.teams, year.matches);
             let results = sortResults(stats);
             let output = results.map((result, key) => (
-                <li key={key}>{`${key + 1}: ${result.team}`}</li>
+                <li key={key}>{`${ordinal(key + 1)}: ${teamNames(result.team)}`}</li>
             ));
             console.log(results);
             return (
