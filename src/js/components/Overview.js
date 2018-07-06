@@ -1,7 +1,9 @@
 import React from 'react';
 
 import teamStats, { sortResults } from '../tools/dataWranglers';
-import { ordinal, teamNames } from '../tools/helpers';
+// import { ordinal, teamNames } from '../tools/helpers';
+
+import Table from './Table';
 
 import sixNationsData from '../data/sixnations';
 
@@ -18,9 +20,7 @@ class Overview extends React.Component {
         const years = sixNationsData.map((year, key) => {
             let stats = teamStats(year.teams, year.matches);
             let results = sortResults(stats);
-            let output = results.map((result, key) => (
-                <li key={key}>{`${ordinal(key + 1)}: ${teamNames(result.team)}`}</li>
-            ));
+            let output = <Table data={results} />;
             console.log(results);
             return (
                 <div key={key} className="year">
