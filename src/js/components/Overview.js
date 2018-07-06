@@ -1,31 +1,73 @@
 import React from 'react';
 
 import teamStats, { sortResults } from '../tools/dataWranglers';
-// import { ordinal, teamNames } from '../tools/helpers';
 
 import Table from './Table';
 
 import sixNationsData from '../data/sixnations';
 
-// let allStats_2018 = teamStats(sixNationsData.Y_2018.teams, sixNationsData.Y_2018.matches);
-// let finalResults_2018 = sortResults(allStats_2018);
-// console.log('2018', finalResults_2018);
-
-// let allStats_2017 = teamStats(sixNationsData.Y_2017.teams, sixNationsData.Y_2017.matches);
-// let finalResults_2017 = sortResults(allStats_2017);
-// console.log('2017', finalResults_2017);
-
 class Overview extends React.Component {
     render() {
+        const columnsToShowInTable = [
+            {
+                slug: 'wins',
+                title: 'W',
+                tooltip: 'Wins'
+            },
+            {
+                slug: 'losses',
+                title: 'L',
+                tooltip: 'Losses'
+            },
+            {
+                slug: 'draws',
+                title: 'D',
+                tooltip: 'Draws'
+            },
+            {
+                slug: 'score',
+                title: 'For',
+                tooltip: false
+            },
+            {
+                slug: 'score_against',
+                title: 'Against',
+                tooltip: false
+            },
+            {
+                slug: 'score_difference',
+                title: 'Diff',
+                tooltip: 'Points difference'
+            },
+            {
+                slug: 'tries',
+                title: 'T',
+                tooltip: 'Tries'
+            },
+            {
+                slug: 'conversions',
+                title: 'C',
+                tooltip: 'Conversions'
+            },
+            {
+                slug: 'penalties',
+                title: 'P',
+                tooltip: 'Penalties'
+            },
+            {
+                slug: 'drops',
+                title: 'D',
+                tooltip: 'Drop goals'
+            }
+        ];
+
         const years = sixNationsData.map((year, key) => {
             let stats = teamStats(year.teams, year.matches);
             let results = sortResults(stats);
-            let output = <Table data={results} />;
-            console.log(results);
             return (
                 <div key={key} className="year">
                     <h2>{year.year}</h2>
-                    <ul>{output}</ul>
+                    <Table columns={columnsToShowInTable} data={results} />
                     <hr />
                 </div>
             );
