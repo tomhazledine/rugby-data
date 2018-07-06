@@ -1,16 +1,24 @@
+import React from 'react';
+
 export const ordinal = i => {
     let j = i % 10,
         k = i % 100;
+    let ordinal = 'th';
     if (j == 1 && k != 11) {
-        return i + 'st';
+        ordinal = 'st';
     }
     if (j == 2 && k != 12) {
-        return i + 'nd';
+        ordinal = 'nd';
     }
     if (j == 3 && k != 13) {
-        return i + 'rd';
+        ordinal = 'rd';
     }
-    return i + 'th';
+    return (
+        <span>
+            {i}
+            <sup>{ordinal}</sup>
+        </span>
+    );
 };
 
 export const teamNames = initial => {
