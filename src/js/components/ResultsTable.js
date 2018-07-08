@@ -43,7 +43,7 @@ const ResultsTable = ({ year, data }) => {
             numbers: true,
             class: false,
             min_max: true,
-            min_max_reverse: false
+            min_max_reverse: true
         },
         {
             slug: 'draws',

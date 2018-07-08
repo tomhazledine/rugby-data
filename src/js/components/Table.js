@@ -4,7 +4,6 @@ import { getColumnsMinMax, getMappedValue, decile } from '../tools/dataWranglers
 
 const Table = ({ columns, data }) => {
     let columnsMinMax = getColumnsMinMax(columns, data);
-    console.log(columnsMinMax);
 
     let headers = (
         <colgroup>
@@ -48,7 +47,6 @@ const Table = ({ columns, data }) => {
                         );
                         classes = `${classes} decile--${decile(mappedValue)}`;
                     }
-                    console.log('classes:', classes);
                     return (
                         <td key={j} className={classes} title={tooltip}>
                             {data}
