@@ -138,4 +138,40 @@ export const sortResults = results =>
         return 0;
     });
 
+export const getColumnsMinMax = (columns, data) => {
+    let minMax = columns.map((column, key) => {
+        if (!column.min_max) {
+            return false;
+        }
+        let columnData = data.map(i => i[column.slug]);
+        return {
+            slug: column.slug,
+            max: Math.max(...columnData),
+            min: Math.min(...columnData)
+        };
+    });
+    return minMax;
+};
+
+export const getMappedValue = (slug, data, minMax, reversed) => {
+    let columnMinMax = minMax.find(item => item.slug === slug);
+    let mappedData = remapDomain(parseInt(data), columnMinMax.min, columnMinMax.max, 0, 100);
+    if (reversed) {
+        mappedData = 100 - mappedData;
+    }
+    return Math.round(mappedData);
+};
+
+const remapDomain = (x, in_min, in_max, out_min, out_max) => {
+    if (in_min === in_max) {
+        return (out_max - out_min) / 2;
+    }
+    return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+};
+
+export const decile = percentile => {
+    let decile = Math.round(percentile / 10);
+    return decile * 10;
+};
+
 export default teamStats;

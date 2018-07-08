@@ -11,7 +11,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Finishing position',
             filter: ordinal,
             numbers: false,
-            class: false
+            class: false,
+            min_max: false,
+            min_max_reverse: false
         },
         {
             slug: 'team',
@@ -19,7 +21,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: false,
             filter: teamNames,
             numbers: false,
-            class: false
+            class: false,
+            min_max: false,
+            min_max_reverse: false
         },
         {
             slug: 'wins',
@@ -27,7 +31,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Wins',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'losses',
@@ -35,7 +41,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Losses',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'draws',
@@ -43,7 +51,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Draws',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'score',
@@ -51,7 +61,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Points scored',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'score_against',
@@ -59,7 +71,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Points conceded',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: true
         },
         {
             slug: 'score_difference',
@@ -67,7 +81,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Points difference',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'tries',
@@ -75,7 +91,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Tries',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'conversions',
@@ -83,7 +101,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Conversions',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'penalties',
@@ -91,7 +111,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Penalties',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'drops',
@@ -99,7 +121,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Drop goals',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         },
         {
             slug: 'points',
@@ -107,7 +131,9 @@ const ResultsTable = ({ year, data }) => {
             tooltip: 'Championship points',
             filter: false,
             numbers: true,
-            class: false
+            class: false,
+            min_max: true,
+            min_max_reverse: false
         }
     ];
     return (

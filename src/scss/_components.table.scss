@@ -5,6 +5,7 @@
 .table__title-wrapper {
     display: block;
     text-align: right;
+    font-family: $utility;
 }
 
 .table__title {
@@ -27,13 +28,48 @@
         text-align: left;
         &.number {
             text-align: right;
+            $bg--negative: lighten($red, 20%);
+            $bg--positive: $primary;
+            &.decile--0 {
+                // background: rgba($bg--negative, 1);
+            }
+            &.decile--10 {
+                // background: rgba($bg--negative, 0.6);
+            }
+            &.decile--20 {
+                // background: rgba($bg--negative, 0.3);
+            }
+            &.decile--30 {
+                // background: rgba($bg--negative, 0.4);
+            }
+            &.decile--40 {
+                // background: rgba($bg--negative, 0.2);
+            }
+            &.decile--50 {
+                // background: rgba(red, 1);
+            }
+            &.decile--60 {
+                // background: rgba($bg--positive, 0.2);
+            }
+            &.decile--70 {
+                // background: rgba($bg--positive, 0.4);
+            }
+            &.decile--80 {
+                background: rgba($bg--positive, 0.3);
+            }
+            &.decile--90 {
+                background: rgba($bg--positive, 0.6);
+            }
+            &.decile--100 {
+                background: rgba($bg--positive, 1);
+            }
         }
     }
     tbody {
         tr {
             transition: background 0.2s;
             &:nth-of-type(2n) {
-                background: rgba($black, 0.05);
+                // background: rgba($black, 0.03);
             }
             &:hover {
                 background: rgba($lime, 0.3);

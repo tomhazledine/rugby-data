@@ -1,6 +1,11 @@
 import React from 'react';
 
+import { getColumnsMinMax, getMappedValue, decile } from '../tools/dataWranglers';
+
 const Table = ({ columns, data }) => {
+    let columnsMinMax = getColumnsMinMax(columns, data);
+    console.log(columnsMinMax);
+
     let headers = (
         <colgroup>
             {columns.map((col, key) => (
@@ -33,6 +38,17 @@ const Table = ({ columns, data }) => {
                         ? typeof data === 'string' ? `${col.tooltip}: ${data}` : col.tooltip
                         : '';
                     let classes = col.numbers ? 'number' : '';
+
+                    if (col.min_max) {
+                        let mappedValue = getMappedValue(
+                            col.slug,
+                            data,
+                            columnsMinMax,
+                            col.min_max_reverse
+                        );
+                        classes = `${classes} decile--${decile(mappedValue)}`;
+                    }
+                    console.log('classes:', classes);
                     return (
                         <td key={j} className={classes} title={tooltip}>
                             {data}
