@@ -9,7 +9,8 @@ import sixNationsData from '../data/sixnations';
 class Overview extends React.Component {
     render() {
         const years = sixNationsData.map((year, key) => {
-            let stats = teamStats(year.teams, year.matches);
+            let oldPoints = parseInt(year.year) < 2017 ? true : false;
+            let stats = teamStats(year.teams, year.matches, oldPoints);
             let results = sortResults(stats);
             return (
                 <div key={key} className="year">

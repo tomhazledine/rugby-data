@@ -82,11 +82,12 @@ const totalPoints = (team, year, pointsRules = POINTS_RULES) => {
     return points;
 };
 
-const teamStats = (teams, matches) =>
-    teams.reduce((acc, team) => {
+const teamStats = (teams, matches, oldPoints = false) => {
+    let pointsRules = oldPoints ? OLD_POINTS_RULES : POINTS_RULES;
+    return teams.reduce((acc, team) => {
         acc.push({
             team,
-            points: totalPoints(team, matches),
+            points: totalPoints(team, matches, pointsRules),
             score: findTotal(team, matches, 'score'),
             score_against: findTotal(team, matches, 'score', false),
             score_difference:
@@ -101,6 +102,7 @@ const teamStats = (teams, matches) =>
         });
         return acc;
     }, []);
+};
 
 const teamArray = (teams, matches, callback) =>
     teams.reduce((acc, team) => {

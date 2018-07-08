@@ -32,7 +32,7 @@ const ResultsTable = ({ year, data }) => {
             filter: false,
             numbers: true,
             class: false,
-            min_max: true,
+            min_max: false,
             min_max_reverse: false
         },
         {
@@ -42,7 +42,7 @@ const ResultsTable = ({ year, data }) => {
             filter: false,
             numbers: true,
             class: false,
-            min_max: true,
+            min_max: false,
             min_max_reverse: true
         },
         {
@@ -52,8 +52,8 @@ const ResultsTable = ({ year, data }) => {
             filter: false,
             numbers: true,
             class: false,
-            min_max: true,
-            min_max_reverse: false
+            min_max: false,
+            min_max_reverse: true
         },
         {
             slug: 'score',
@@ -132,7 +132,7 @@ const ResultsTable = ({ year, data }) => {
             filter: false,
             numbers: true,
             class: false,
-            min_max: true,
+            min_max: false,
             min_max_reverse: false
         }
     ];

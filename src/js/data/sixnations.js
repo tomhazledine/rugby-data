@@ -730,6 +730,372 @@ const sixNationsData = [
                 }
             }
         ]
+    },
+    {
+        year: 2016,
+        teams: ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'],
+        matches: [
+            {
+                date: '20160206',
+                kick_off: '15:25 CET (UTC+1)',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 23,
+                    tries: 3,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 21,
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 1
+                }
+            },
+            {
+                date: '20160206',
+                kick_off: '16:50 GMT (UTC+0)',
+                home: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 9,
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 15,
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160207',
+                kick_off: '15:00 GMT (UTC+0)',
+                home: {
+                    team: 'IRE',
+                    result: 'draw',
+                    bonus_points: 0,
+                    score: 16,
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'draw',
+                    bonus_points: 0,
+                    score: 16,
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160213',
+                kick_off: '15:25 CET (UTC+1)',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 10,
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 9,
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160213',
+                kick_off: '16:50 GMT (UTC+0)',
+                home: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 27,
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 23,
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160214',
+                kick_off: '15:00 CET (UTC+1)',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 9,
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 40,
+                    tries: 5,
+                    conversions: 3,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160226',
+                kick_off: '20:05 GMT (UTC+0)',
+                home: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 19,
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 10,
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160227',
+                kick_off: '15:25 CET (UTC+1)',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 20,
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 36,
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 5,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160227',
+                kick_off: '16:50 GMT (UTC+0)',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 21,
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 10,
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160312',
+                kick_off: '13:30 GMT (UTC+0)',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 58,
+                    tries: 9,
+                    conversions: 5,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 15,
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160312',
+                kick_off: '16:00 GMT (UTC+0)',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 25,
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 6,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 21,
+                    tries: 3,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160313',
+                kick_off: '15:00 GMT (UTC+0)',
+                home: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 29,
+                    tries: 3,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 18,
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160319',
+                kick_off: '14:30 GMT (UTC+0)',
+                home: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 67,
+                    tries: 9,
+                    conversions: 8,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 14,
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 0,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160319',
+                kick_off: '17:00 GMT (UTC+0)',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 35,
+                    tries: 4,
+                    conversions: 3,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 25,
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20160319',
+                kick_off: '21:00 CET (UTC+1)',
+                home: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 21,
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 7,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 31,
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 4,
+                    drop: 0
+                }
+            }
+        ]
     }
 ];
 
