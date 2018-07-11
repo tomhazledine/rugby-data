@@ -113,7 +113,7 @@ const teamArray = (teams, matches, callback) =>
         return acc;
     }, []);
 
-export const sortResults = results =>
+export const sortResults = results => {
     results.sort((a, b) => {
         if (a.points < b.points) {
             return 1;
@@ -139,6 +139,13 @@ export const sortResults = results =>
         }
         return 0;
     });
+    let withPosition = results.map((item, key) => {
+        item.position = key + 1;
+        return item;
+    });
+
+    return withPosition;
+};
 
 export const getColumnsMinMax = (columns, data) => {
     let minMax = columns.map((column, key) => {
@@ -164,7 +171,7 @@ export const getMappedValue = (slug, data, minMax, reversed) => {
     return Math.round(mappedData);
 };
 
-const remapDomain = (x, in_min, in_max, out_min, out_max) => {
+export const remapDomain = (x, in_min, in_max, out_min, out_max) => {
     if (in_min === in_max) {
         return (out_max - out_min) / 2;
     }

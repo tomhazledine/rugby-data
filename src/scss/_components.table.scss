@@ -65,6 +65,9 @@
             }
         }
     }
+    td.number {
+        font-family: $utility;
+    }
     tbody {
         tr {
             transition: background 0.2s;

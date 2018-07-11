@@ -1,0 +1,72 @@
+.graphs__inner {
+    display: flex;
+}
+.graph__body {
+    margin-top: 0.5rem;
+    font-size: 0.8em;
+    margin-right: 2rem;
+    // font-family: $utility;
+}
+.graph__row {
+    display: flex;
+}
+.graph__row-title {
+    display: block;
+    width: 3.5em;
+    // text-align: right;
+    // font-weight: 700;
+    margin-right: 0.5rem;
+}
+.graph__row-title--main {
+    font-weight: 700;
+}
+.graph__row-title--extra {
+    display: inline-block;
+    padding: 0 0.5em 0 0.2em;
+}
+
+.graph__row-display-wrapper {
+    display: block;
+    width: 12em;
+}
+.graph__row-display {
+    display: block;
+    height: 1em;
+    background: $primary;
+    position: relative;
+}
+.graph__row-value {
+    display: block;
+    width: 1.5em;
+    text-align: right;
+    font-family: $utility;
+    margin-right: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.graph__sorting {
+    margin-top: 1rem;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.graph__sort-button {
+    @extend %buttonReset;
+    font-family: $text;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+    padding: 0.2rem 0.5rem;
+    text-transform: uppercase;
+    border: 0.1rem solid $black;
+    margin-left: 0.5rem;
+    &.active {
+        background: $black;
+        color: $white;
+    }
+    &:focus {
+        outline: none;
+        color: $primary;
+    }
+}
