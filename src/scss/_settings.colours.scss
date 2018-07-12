@@ -20,7 +20,17 @@ $grey: #aaa;
 $black: #111;
 
 // Project Colours
-$primary: #bffed6;
+$lime: #bffed6;
+$lime--bright: #73fea6;
+$lime--dark: #397e52;
+$lime--mid: #99cbab;
+$lime--grey: #5f7e6b;
+$puce: #b16562;
+$puce--pale: #fec2bf;
+$pink: #fe80ac;
+$purple: #cb84c1;
+
+$primary: $lime;
 
 // Selection Colours
 ::selection {

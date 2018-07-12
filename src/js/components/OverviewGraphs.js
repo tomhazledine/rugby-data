@@ -1,9 +1,6 @@
 import React from 'react';
 
 import GraphHorizontalBar from './GraphHorizontalBar';
-import GraphTries from './GraphTries';
-import GraphScore from './GraphScore';
-// import { ordinal, teamNames } from '../tools/helpers';
 
 const OverviewGraphs = ({ year, data }) => {
     return (
@@ -22,6 +19,7 @@ const OverviewGraphs = ({ year, data }) => {
                     value="score_against"
                     title="Total score against"
                     sort={'score_against'}
+                    modifier={'negative'}
                 />
             </div>
         </div>

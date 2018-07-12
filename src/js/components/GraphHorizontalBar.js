@@ -53,7 +53,7 @@ class GraphHorizontalBar extends React.Component {
                 <div className="graph__row" key={key}>
                     <span className="graph__row-title">
                         <span className="graph__row-title--main">{row.team}</span>
-                        <span className="graph__row-title--extra">{row.position}</span>
+                        {/*<span className="graph__row-title--extra">{row.position}</span>*/}
                     </span>
                     <span className="graph__row-display-wrapper">
                         <span
@@ -70,8 +70,10 @@ class GraphHorizontalBar extends React.Component {
         let sortActive__value = this.state.sort ? 'active' : '';
         let sortActive__default = this.state.sort ? '' : 'active';
 
+        let modifierClass = this.props.modifier ? this.props.modifier : '';
+
         return (
-            <div className="graph__bar--horizontal">
+            <div className={`graph__bar--horizontal graph__bar--${modifierClass}`}>
                 <h3 className="table__title">{this.props.title}</h3>
                 <div className="graph__body">{rows}</div>
                 <div className="graph__sorting">
