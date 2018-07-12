@@ -1,0 +1,408 @@
+[
+    {
+        "date": "20130202",
+        "kick_off": "13:30 GMT (UTC+0)",
+        "home": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "22",
+            "scoring":
+                "Try: Cuthbert 47' c Halfpenny 58' mMitchell 75' cCon: Halfpenny (2/3) 49', 76'Pen: Halfpenny (1/1) 33'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "30",
+            "scoring":
+                "Try: Zebo 10' c Healy 23' cO'Driscoll 42' cCon: Sexton (3/3) 11', 25', 43'Pen: Sexton (3/3) 20', 28', 40'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130202",
+        "kick_off": "16:00 GMT (UTC+0)",
+        "home": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "38",
+            "scoring":
+                "Try: Ashton 30' c Twelvetrees 42' cParling 53' mCare 80' cCon: Farrell (3/4) 31', 43', 80'Pen: Farrell (4/4) 2', 13', 18', 37'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "18",
+            "scoring":
+                "Try: Maitland 9' m Hogg 70' cCon: Laidlaw (1/2) 70'Pen: Laidlaw (2/2) 19', 39'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130203",
+        "kick_off": "16:00 CET (UTC+1)",
+        "home": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "23",
+            "scoring":
+                "Try: Parisse 4' c Castrogiovanni 56' cCon: Orquera (2/2) 5', 58'Pen: Orquera (1/1) 17'Drop: Orquera 14'Burton 68'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "18",
+            "scoring":
+                "Try: Picamoles 11' m Fall 33' cCon: Michalak (1/2) 33'Pen: Michalak (2/3) 27', 49'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130209",
+        "kick_off": "14:30 GMT (UTC+0)",
+        "home": {
+            "team": "Scotland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "34",
+            "scoring":
+                "Try: Visser 28' c Scott 42' cHogg 47' cLamont 68' cCon: Laidlaw (4/4) 30', 44', 48', 69'Pen: Laidlaw (2/2) 15', 24'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "10",
+            "scoring": "Try: Zanni 73' c Con: Burton (1/1) 74'Pen: Orquera (1/2) 39'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130209",
+        "kick_off": "18:00 CET (UTC+1)",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "6",
+            "scoring": "Pen: Michalak (2/2) 14', 52' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "16",
+            "scoring":
+                "Try: North 71' c Con: Halfpenny (1/1) 73'Pen: Halfpenny (3/3) 17', 42', 74'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130210",
+        "kick_off": "15:00 GMT (UTC+0)",
+        "home": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "6",
+            "scoring": "Pen: O'Gara (2/3) 44', 57' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "12",
+            "scoring": "Pen: Farrell (4/6) 2', 28', 63', 65' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130223",
+        "kick_off": "15:30 CET (UTC+1)",
+        "home": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "9",
+            "scoring": "Pen: Burton (3/3) 9', 29', 49' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "26",
+            "scoring":
+                "Try: Davies 44' c Cuthbert 61' cCon: Halfpenny (2/2) 45', 61'Pen: Halfpenny (4/5) 7', 15', 19', 52'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130223",
+        "kick_off": "17:00 GMT (UTC+0)",
+        "home": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "23",
+            "scoring":
+                "Try: Tuilagi 54' m Pen: Farrell (4/5) 1', 27', 33', 47'Flood (2/2) 72', 76'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "13",
+            "scoring":
+                "Try: Fofana 29' c Con: Parra (1/1) 31'Pen: Parra (1/3) 4'Michalak (1/1) 56'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130224",
+        "kick_off": "14:00 GMT (UTC+0)",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "12",
+            "scoring": "Pen: Laidlaw (4/4) 52', 59', 63', 73' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "8",
+            "scoring": "Try: Gilroy 43' m Pen: Jackson (1/3) 35'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130309",
+        "kick_off": "14:30 GMT (UTC+0)",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "18",
+            "scoring": "Pen: Laidlaw (6/8) 6', 12', 26', 37', 48', 60' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "28",
+            "scoring":
+                "Try: Hibbard 23' c Con: Halfpenny (1/1) 23'Pen: Halfpenny (7/10) 4', 40', 46', 55', 58', 67', 71'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130309",
+        "kick_off": "17:00 GMT (UTC+0)",
+        "home": {
+            "team": "Ireland",
+            "result": "draw",
+            "bonus_points": null,
+            "score": "13",
+            "scoring": "Try: Heaslip 10' c Con: Jackson (1/1) 11'Pen: Jackson (2/4) 29', 32'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "draw",
+            "bonus_points": null,
+            "score": "13",
+            "scoring":
+                "Try: Picamoles 73' c Con: Michalak (1/1) 74'Pen: Michalak (1/3) 26'Parra (1/2) 53'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130310",
+        "kick_off": "15:00 GMT (UTC+0)",
+        "home": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "18",
+            "scoring": "Pen: Flood (6/6) 3', 15', 37', 40', 43', 61' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "11",
+            "scoring": "Try: McLean 48' m Pen: Orquera (2/3) 17', 47'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130316",
+        "kick_off": "15:30 CET (UTC+1)",
+        "home": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "22",
+            "scoring":
+                "Try: Venditti 48' c Con: Orquera (1/1) 49'Pen: Orquera (4/5) 13', 21', 69', 80'Garcia (1/2) 35'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "15",
+            "scoring": "Pen: Jackson (5/6) 5', 40', 52', 57', 63' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130316",
+        "kick_off": "17:00 GMT (UTC+0)",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "30",
+            "scoring":
+                "Try: Cuthbert (2) 56' m, 65' c Con: Biggar (1/1) 66'Pen: Halfpenny (4/4) 10', 17', 23', 51'Biggar (1/1) 70'Drop: Biggar 64'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "3",
+            "scoring": "Pen: Farrell (1/3) 20' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20130316",
+        "kick_off": "21:00 CET (UTC+1)",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "23",
+            "scoring":
+                "Try: Fofana 65' c Médard 70' cCon: Michalak (1/1) 66'Machenaud (1/1) 71'Pen: Michalak (3/3) 44', 49', 53'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "16",
+            "scoring": "Try: Visser 75' c Con: Jackson (1/1) 75'Pen: Laidlaw (3/3) 8', 14', 58'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    }
+]

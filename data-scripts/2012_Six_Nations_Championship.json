@@ -1,0 +1,436 @@
+[
+    {
+        "date": "20120204",
+        "kick_off": "15:30 CET (UTC+01)",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "30",
+            "scoring":
+                "Try: Rougerie 20' c Malzieu 34' mClerc 53' cFofana 71' mCon: Yachvili (2/3) 21', 54'Pen: Yachvili (2/3) 11', 51'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "12",
+            "scoring": "Pen: Burton (2/3) 29', 46' Botes (1/1) 60'Drop: Burton (1/2) 17'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120204",
+        "kick_off": "17:00 GMT (UTC+0)",
+        "home": {
+            "team": "Scotland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "6",
+            "scoring": "Pen: Parks (2/2) 25', 32' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "13",
+            "scoring": "Try: Hodgson 40' c Con: Farrell (1/1) 41'Pen: Farrell (2/4) 22', 74'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120205",
+        "kick_off": "15:00 IST (UTC+0)",
+        "home": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "21",
+            "scoring":
+                "Try: Best 36' c Bowe 67' mCon: Sexton (1/2) 38'Pen: Sexton (3/5) 3', 43', 59'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "23",
+            "scoring":
+                "Try: J. Davies (2) 13' m, 54' c North 75' mCon: Halfpenny (1/2) 55'Pen: Halfpenny (2/2) 53', 79'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120211",
+        "kick_off": "17:00 CET (UTC+01)",
+        "home": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "15",
+            "scoring":
+                "Try: Venditti 37' m Benvenuti 40' cCon: Burton (1/2) 40'Pen: Burton (1/1) 47'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "19",
+            "scoring":
+                "Try: Hodgson 50' c Con: Farrell (1/1) 50'Pen: Farrell (4/4) 26', 35', 54', 65'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120211",
+        "kick_off": "21:00 CET (UTC+01)",
+        "home": {
+            "team": "France",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "P",
+            "scoring": "\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "P[14]",
+            "scoring": "\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120212",
+        "kick_off": "15:00 GMT (UTC+0)",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "27",
+            "scoring":
+                "Try: Cuthbert 41' c Halfpenny (2) 50' c, 55' cCon: Halfpenny (3/3) 43', 52', 56'Pen: Halfpenny (2/3) 29', 45'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "13",
+            "scoring": "Try: Laidlaw 63' c Con: Laidlaw (1/1) 64'Pen: Laidlaw (2/3) 22', 48'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120225",
+        "kick_off": "13:30 IST (UTC+0)",
+        "home": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "42",
+            "scoring":
+                "Try: Earls 15' c Bowe (2) 38' c, 61' cCourt 76' cTrimble 80' mCon: Sexton (4/5) 17', 39', 61', 78'Pen: Sexton (3/3) 10', 48', 57'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "10",
+            "scoring": "Try: Parisse 34' c Con: Botes (1/1) 35'Pen: Botes (1/4) 7'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120225",
+        "kick_off": "16:00 GMT (UTC+0)",
+        "home": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "12",
+            "scoring": "Pen: Farrell (4/5) 23', 29', 38', 45' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "19",
+            "scoring":
+                "Try: S. Williams 75' c Con: Halfpenny (1/1) 76'Pen: Halfpenny (4/5) 25', 34', 53', 71'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120226",
+        "kick_off": "15:00 GMT (UTC+0)",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "17",
+            "scoring":
+                "Try: Hogg 7' c Jones 55' cCon: Laidlaw (1/1) 9'Weir (1/1) 56'Pen: Laidlaw (1/2) 25'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "23",
+            "scoring":
+                "Try: Fofana 28' c Médard 58' cCon: Parra (2/2) 29', 59'Pen: Parra (2/3) 39', 47'Drop: Beauxis (1/1) 68'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120304",
+        "kick_off": "2] 16:00 CET",
+        "home": {
+            "team": "France",
+            "result": "draw",
+            "bonus_points": null,
+            "score": "17",
+            "scoring": "Try: Fofana 50' m Pen: Parra (4/5) 22', 29', 46', 57'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "draw",
+            "bonus_points": null,
+            "score": "17",
+            "scoring":
+                "Try: Bowe (2) 12' c, 37' c Con: Sexton (2/2) 13', 38'Pen: Sexton (1/2) 25'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120310",
+        "kick_off": "14:30 GMT (UTC+0)",
+        "home": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "24",
+            "scoring":
+                "Try: Roberts 59' c Cuthbert 77' mCon: Halfpenny (1/2) 50'Pen: Halfpenny (3/3) 9', 19', 36'Priestland (1/1) 69'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "3",
+            "scoring": "Pen: Bergamasco (1/1) 12' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120310",
+        "kick_off": "17:00 IST (UTC+0)",
+        "home": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "32",
+            "scoring":
+                "Try: Best 13' c Reddan 33' cTrimble 40' mMcFadden 76' cCon: Sexton (3/4) 14', 34', 77'Pen: Sexton (2/2) 25', 71'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "14",
+            "scoring": "Try: Gray 36' m Pen: Laidlaw (3/3) 3', 9', 31'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120311",
+        "kick_off": "16:00 CET (UTC+01)",
+        "home": {
+            "team": "France",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "22",
+            "scoring":
+                "Try: Fofana 74' c Con: Parra (1/1) 75'Pen: Beauxis (3/4) 16', 39', 68'Dupuy (1/2) 32'Parra (1/1) 64'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "24",
+            "scoring":
+                "Try: Tuilagi 12' c Foden 17' cCroft 70' cCon: Farrell (3/3) 14', 18', 71'Pen: Farrell (1/2) 49'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120317",
+        "kick_off": "13:30 CET (UTC+01)",
+        "home": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "13",
+            "scoring":
+                "Try: Venditti 42' c Con: Burton (1/1) 43'Pen: Bergamasco (1/3) 10'Drop: Burton (1/2) 76'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "6",
+            "scoring": "Pen: Laidlaw (2/3) 35', 59' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120317",
+        "kick_off": "14:45 GMT (UTC+0)",
+        "home": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "16",
+            "scoring":
+                "Try: Cuthbert 20' c Con: Halfpenny (1/1) 21',Pen: Halfpenny (3/4) 32', 52', 75'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "9",
+            "scoring": "Pen: Yachvili (2/2) 10', 72' Beauxis (1/1) 44'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20120317",
+        "kick_off": "17:00 GMT (UTC+0)",
+        "home": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "30",
+            "scoring":
+                "Try: Penalty try 58' c Youngs 73' mCon: Farrell (1/2) 58'Pen: Farrell (6/6) 2', 23', 34', 48', 64', 77'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "9",
+            "scoring": "Pen: Sexton (3/3) 15', 40', 51' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    }
+]

@@ -1,0 +1,390 @@
+[
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "3 - 29",
+            "scoring": "Pen: Hodge\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Tries: Robinson (2) TindallCohenCon: Wilkinson(2)HodgsonPen: Wilkinson\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "54 − 10",
+            "scoring":
+                "Tries: Murphy (2) O'ConnellHickieGleesonO'GaraCon: HumphreysO'Gara (2)Pen: Humphreys (6)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Try: S. Jones Con: S. JonesPen S. Jones\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "France",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "33 − 12",
+            "scoring": "Tries: Traille BetsenCon: MerceronPen: Merceron (7)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Pen: Dominguez (4)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "33 - 37",
+            "scoring": "Tries: C. Quinnell K. MorganBudgettCon: S. Jones (3)Pen: S. Jones (4)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "scoring":
+                "Tries: Marsh (2) RougerieCon: Merceron (2)Pen: Merceron (4)TrailleDrop: Merceron\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "45 - 11",
+            "scoring":
+                "Tries: Greenwood (2) WilkinsonCohenWorsleyKayCon: Wilkinson (6)Pen: Wilkinson\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Tries: O'Gara Pen: Humphreys (2)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "12 ",
+            "scoring": "Pen: Dominguez (4)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": " 29",
+            "scoring": "Tries: Townsend LaneyCon: Laney (2)Pen: Laney (5)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "43 - 22",
+            "scoring":
+                "Tries: O'Driscoll (3) HorganEasterbyCon: Humphreys (2)O'GaraPen: Humphreys (4)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Try: Leslie Con: LaneyPen: Laney (5)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "44 - 20",
+            "scoring":
+                "Tries: C. Morgan JamesR. WilliamsS. QuinnellMarinosCon: S. Jones (5)Pen: S. Jones (3)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Tries: Checchinato MazzariolCon: PezPeensPen: PezPeens\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "France",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "20 − 15",
+            "scoring": "Tries: Merceron HarinordoquyCon: Merceron (2)Pen: Merceron (2)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Tries: Robinson CohenCon: WilkinsonPen: Wilkinson\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "10 - 22",
+            "scoring": "Tries: Redpath Con: LaneyPen: Laney\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Tries: Marsh (2) GalthiéCon: Merceron (2)Pen: Merceron\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "50 - 10",
+            "scoring":
+                "Tries: Luger (2) GreenwoodWilkinsonStimpsonCon: Wilkinson (5)Pen: Wilkinson (4)Drop: Wilkinson\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "scoring": "Tries: Harris Con: HarrisPen: Harris\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "32 ",
+            "scoring": "Tries: Kelly (2) HickieCon: O'GaraPen: Humphreys (4)O'Gara\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": " 17",
+            "scoring": "Tries: Ma. Bergamasco de CarliCon: Dominguez (2)Pen: Peens\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "44 ",
+            "scoring":
+                "Tries: Betsen (2) Brusque (2)RougerieCon: Merceron (2)Pen: Merceron (4)Gelez\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": " 5",
+            "scoring": "Try: Wood\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "22 ",
+            "scoring": "Try: R. Williams Con: S. JonesPen: S. Jones (5)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": " 27",
+            "scoring": "Tries: Bulloch (2) Con: LaneyPens: Laney (4)Hodge\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "Invalid date",
+        "kick_off": "undefined undefined undefined",
+        "home": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "9 ",
+            "scoring": "Pen: Dominguez (3)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": " 45",
+            "scoring":
+                "Tries: Greenwood (2) CohenRobinsonDallaglioHealeyCon: Wilkinson (5)DawsonPen: Wilkinson\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    }
+]

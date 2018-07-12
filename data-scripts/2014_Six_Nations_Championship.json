@@ -1,0 +1,412 @@
+[
+    {
+        "date": "20140201",
+        "kick_off": "14:30 GMT (UTC+0)",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "23",
+            "scoring":
+                "Try: Cuthbert 3' c S. Williams 37' cCon: Halfpenny (2/2) 4', 39'Pen: Halfpenny (3/4) 28', 66', 73'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "15",
+            "scoring":
+                "Try: Campagnaro (2) 42' m, 68' c Con: Allan (1/2) 69'Pen: Allan (1/2) 13'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140201",
+        "kick_off": "18:00 CET (UTC+1)",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "26",
+            "scoring":
+                "Try: Huget (2) 1' m, 17' m Fickou 76' cCon: Doussain (0/2)Machenaud (1/1) 78'Pen: Doussain (2/2) 10', 22'Machenaud (1/1) 69'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "24",
+            "scoring":
+                "Try: Brown 36' m Burrell 47' cCon: Farrell (1/2) 48'Pen: Farrell (2/2) 5', 42'Goode (1/1) 72'Drop: Care (1/1) 56'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140202",
+        "kick_off": "15:00 GMT (UTC+0)",
+        "home": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "28",
+            "scoring":
+                "Try: Trimble 40' m Heaslip 46' cR. Kearney 70' cCon: Sexton (2/3) 47', 72'Pen: Sexton (3/3) 13', 22', 56'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "6",
+            "scoring": "Pen: Laidlaw (2/3) 18', 42' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140208",
+        "kick_off": "14:30 GMT (UTC+0)",
+        "home": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "26",
+            "scoring":
+                "Try: Henry 31' c Jackson 78' cCon: Sexton (1/1) 33'Jackson (1/1) 79'Pen: Sexton (4/5) 7', 16', 45', 55'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "3",
+            "scoring": "Pen: Halfpenny (1/1) 55' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140208",
+        "kick_off": "17:00 GMT (UTC+0)",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "0",
+            "scoring": "Pen: Laidlaw (0/2) \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "20",
+            "scoring":
+                "Try: Burrell 14' c Brown 58' cCon: Farrell (2/2) 15', 59'Pen: Farrell (1/4) 28'Drop: Care (1/1) 5'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140209",
+        "kick_off": "16:00 CET (UTC+1)",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "30",
+            "scoring":
+                "Try: Picamoles 42' c Fofana 45' cBonneval 51' cCon: Doussain (3/3) 43', 46', 52'Pen: Doussain (3/5) 26', 33', 38'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "10",
+            "scoring":
+                "Try: Iannone 76' c Con: Orquera (1/1) 77'Pen: Allan (1/2) 28'Garcia (0/2)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140221",
+        "kick_off": "20:00 GMT (UTC+0)",
+        "home": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "27",
+            "scoring":
+                "Try: North 5' m Warburton 63' cCon: Halfpenny (1/2) 63'Pen: Halfpenny (5/6) 2', 9', 19', 34', 40'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "6",
+            "scoring": "Pen: Doussain (1/2) 16' Plisson (1/2) 31'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140221",
+        "kick_off": "14:30 CET (UTC+1)",
+        "home": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "20",
+            "scoring":
+                "Try: Allan 39' c Furno 70' cCon: Allan (1/1) 40'Orquera (1/1) 72'Pen: Allan (2/3) 13', 31'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "21",
+            "scoring":
+                "Try: Dunbar (2) 53' m, 67' c Con: Laidlaw (0/1)Weir (1/1) 67'Pen: Laidlaw (2/2) 22', 45'Drop: Weir (1/1) 79'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140222",
+        "kick_off": "16:00 GMT (UTC+0)",
+        "home": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "13",
+            "scoring": "Try: Care 56' c Con: Farrell (1/1) 56'Pen: Farrell (2/3) 24', 53'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "10",
+            "scoring": "Try: R. Kearney 41' c Con: Sexton (1/1) 42'Pen: Sexton (1/1) 49'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140308",
+        "kick_off": "14:30 GMT (UTC+0)",
+        "home": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "46",
+            "scoring":
+                "Try: Sexton (2) 6' c, 59' m Trimble 37' cHealy 52' mCronin 68' cMcFadden 77' cMcGrath 80' mCon: Sexton (2/4) 6', 39'Jackson (2/3) 69', 77'Pen: Sexton (1/1) 31'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "7",
+            "scoring": "Try: Sarto 24' c Con: Orquera (1/1) 25'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140308",
+        "kick_off": "17:00 GMT (UTC+0)",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "17",
+            "scoring":
+                "Try: Hogg 12' c Seymour 22' cCon: Laidlaw (2/2) 13', 22'Pen: Laidlaw (0/1)Weir (1/2) 61'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "19",
+            "scoring":
+                "Try: Huget 45' c Con: Machenaud (1/1) 46'Pen: Machenaud (3/4) 1', 10', 16'Doussain (1/1) 78'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140309",
+        "kick_off": "15:00 GMT (UTC+0)",
+        "home": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "29",
+            "scoring":
+                "Try: Care 4' c Burrell 33' cCon: Farrell (2/2) 5', 34'Pen: Farrell (5/5) 18', 26', 45', 54', 58'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "18",
+            "scoring": "Pen: Halfpenny (6/6) 8', 22', 30', 37', 40', 56' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140315",
+        "kick_off": "13:30 CET (UTC+1)",
+        "home": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "11",
+            "scoring": "Try: Sarto 68' m Con: Allan (0/1)Pen: Orquera (2/2) 6', 22'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "52",
+            "scoring":
+                "Try: Brown (2) 12' c, 37' c Farrell 31' cNowell 52' cVunipola 60' cTuilagi 67' cRobshaw 80+1' cCon: Farrell (7/7) 13', 32', 39', 53', 61', 67', 80+2'Pen: Farrell (1/1) 10'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140315",
+        "kick_off": "14:45 GMT (UTC+0)",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "51",
+            "scoring":
+                "Try: L. Williams 15' c North (2) 33' c, 41' mRoberts (2) 38' c, 47' cFaletau 52' mR. Williams 73' cCon: Biggar (4/6) 15', 23', 39', 48'Hook (1/1) 74'Pen: Biggar (2/2) 8', 23'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "3",
+            "scoring": "Pen: Laidlaw (1/3) 3' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20140315",
+        "kick_off": "18:00 CET (UTC+1)",
+        "home": {
+            "team": "France",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "20",
+            "scoring":
+                "Try: Dulin 30' c Szarzewski 62' cCon: Machenaud (2/2) 31', 63'Pen: Machenaud (2/2) 1', 14'Doussain (0/1)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "22",
+            "scoring":
+                "Try: Sexton (2) 20' m, 46' c Trimble 25' cCon: Sexton (2/3) 26', 47'Pen: Sexton (1/2) 52'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    }
+]

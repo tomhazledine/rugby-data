@@ -1,0 +1,408 @@
+[
+    {
+        "date": "20070203",
+        "kick_off": "13:30 GMT undefined",
+        "home": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "3",
+            "scoring": "Pen: Pez (1/1) 36' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "39",
+            "scoring":
+                "Try: Dominici 23' c Heymans 30' cChabal (2) 40' m, 44' cJauzion 63' cCon: Skrela (4/5)Pen: Skrela (1/1) 13'Beauxis (1/1) 72'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070203",
+        "kick_off": "16:00 GMT undefined",
+        "home": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "42",
+            "scoring":
+                "Try: Robinson (2) 37' m, 55' c Wilkinson 59' cLund 72' mCon: Wilkinson (2/4)Pen: Wilkinson (5/5) 11', 29', 31', 49', 53'Drop: Wilkinson (1/2) 19'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "20",
+            "scoring":
+                "Try: Taylor 25' c Dewey 77' cCon: Paterson (2/2)Pen: Paterson (2/3) 18', 43'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070204",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "9",
+            "scoring": "Pen: S. Jones (3/3) 9', 19', 25' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "19",
+            "scoring": "Try: R. Best 1' m B. O'Driscoll 33' cO'Gara 71' cCon: O'Gara (2/3)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070210",
+        "kick_off": "13:30 GMT undefined",
+        "home": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "20",
+            "scoring": "Try: Robinson 39' m Pen: Wilkinson (5/5) 3', 15', 25', 56', 75'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "7",
+            "scoring": "Try: Scanavacca 65' c Con: Scanavacca (1/1)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070210",
+        "kick_off": "15:30 GMT undefined",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "21",
+            "scoring": "Pen: Paterson (7/7) 6', 19', 37', 48', 52', 58', 79' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "9",
+            "scoring": "Pen: S. Jones (3/3) 24', 40', 54' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070211",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "17",
+            "scoring": "Try: O'Gara 31' m Pen: O'Gara (4/4) 12', 24', 56', 78'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "20",
+            "scoring":
+                "Try: Ibañez 14' c Clerc 79' cCon: Skrela (1/1) Beauxis (1/1)Pen: Skrela (2/4) 4', 9'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070224",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "17",
+            "scoring":
+                "Try: Dewey 14' c Paterson 60' cCon: Paterson (2/2)Pen: Paterson (1/1) 40'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "37",
+            "scoring":
+                "Try: Ma. Bergamasco 1' c Scanavacca 4' cRobertson 6' c Troncon 75' cCon: Scanavacca (4/4)Pen: Scanavacca (3/3) 19', 66', 71'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070224",
+        "kick_off": "17:30 GMT undefined",
+        "home": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "43",
+            "scoring":
+                "Try: Dempsey 30' c D. Wallace 37' cHorgan 63' cBoss 78' cCon: O'Gara (3/3)P. Wallace (1/1)Pen: O'Gara (5/5) 6', 20', 26', 43', 57'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "13",
+            "scoring": "Try: Strettle 46' c Con: Wilkinson (1/1)Pen: Wilkinson (2/3) 2', 56'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070224",
+        "kick_off": "20:00 GMT undefined",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "32",
+            "scoring":
+                "Try: Dominici 28' c Nallet 34' cCon: Skrela (2/2)Pen: Skrela (5/6) 11', 18', 38', 46', 52'Beauxis (1/1) 80'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "21",
+            "scoring": "Try: Popham 13' c Shanklin 15' cRobinson 74' cCon: S. Jones (3/3)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070310",
+        "kick_off": "13:30 GMT undefined",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "18",
+            "scoring": "Pen: Paterson (6/6) 17', 36', 40', 51', 61', 66' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "19",
+            "scoring": "Try: O'Gara 30' c Con: O'Gara (1/1)Pen: O'Gara (4/6) 9', 38', 68', 70'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070310",
+        "kick_off": "15:30 GMT undefined",
+        "home": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "23",
+            "scoring":
+                "Try: Robertson 37' c Mauro Bergamasco 78' cCon: Pez (2/2)Pen: Pez (3/4) 12', 20', 73'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "20",
+            "scoring":
+                "Try: S. Williams 27' c Rees 45' cCon: S. Jones (1/1)Hook (1/1)Pen: Hook (2/2) 44', 54'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070311",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "26",
+            "scoring":
+                "Try: Flood 48' c Tindall 73' cCon: Flood (1/1)Geraghty (1/1)Pen: Flood (3/5) 8', 31', 35'Geraghty (1/1) 68'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "18",
+            "scoring": "Pen: Skrela (3/3) 4', 15', 21' Yachvili (3/3) 34', 52', 59'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070317",
+        "kick_off": "13:30 GMT undefined",
+        "home": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "24",
+            "scoring":
+                "Try: Bortolami 75' m De Marigny 80' cCon: Scanavacca (1/2)Pen: Pez (2/3) 15', 26'Drop: Pez (2/2) 12', 29'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "51",
+            "scoring":
+                "Try: Dempsey (2) 17' m, 46' c Easterby 21' mD'Arcy 40' cHorgan 51' mHickie (2) 55' c, 77' mO'Gara 59' cCon: O'Gara (4/8)Pen: O'Gara (1/1) 6'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070317",
+        "kick_off": "15:30 GMT undefined",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "46",
+            "scoring":
+                "Try: Harinordoquy 29' c Jauzion 33' cMarty 52' cHeymans 59' mMilloud 62' cVermeulen 80' cCon: Beauxis (5/6)Pen: Beauxis (2/2) 19', 37'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "19",
+            "scoring": "Try: Walker 7' c S. Lamont 40' cE. Murray 76' mCon: Paterson (2/3)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20070317",
+        "kick_off": "17:30 GMT undefined",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "27",
+            "scoring":
+                "Try: Hook 3' c Horsman 13' mCon: Hook (1/2)Pen: Hook (4/5) 11', 39', 64', 74'Drop: Hook (1/2) 68'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "18",
+            "scoring":
+                "Try: Ellis 32' c Robinson 40' mCon: Flood (1/2)Pen: Flood (1/1) 46'Drop: Flood (1/1) 35'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    }
+]

@@ -1,0 +1,407 @@
+[
+    {
+        "date": "20040214",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "35",
+            "scoring":
+                "Try: Clerc 28' m Pape 51' cJauzion 55' cÉlissalde 77' cCon: Michalak (3)Pen: Michalak (3) 21', 33', 60'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "17",
+            "scoring": "Try: Foley 44' c Howe 70' cCon: O'Gara (2)Pen: O'Gara 6'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040214",
+        "kick_off": "16:00 GMT undefined",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "23",
+            "scoring":
+                "Try: R. Williams (2) 3' c, 50' m A. Jones 15' mCon: S. JonesPen: S. Jones (2) 25', 40+2'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "10",
+            "scoring": "Try: Taylor 80+6' c Con: PatersonDrop: Paterson 8'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040215",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "9",
+            "scoring": "Pen: Wakarua (2) 22', 29' Drop: Wakarua 6'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "50",
+            "scoring":
+                "Try: Balshaw 16' c Robinson (3) 23' m, 40+3' m, 64' mLewsey 59' cGrayson 70' cJones 80+6' mCon: Grayson (3)Pen: Grayson (3) 2', 20', 36'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040221",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "25",
+            "scoring":
+                "Try: Harinordoquy (2) 25' c, 65' c Elhorga 75' mCon: Élissalde (2)Pen: Élissalde 13'Traille 42'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "0",
+            "scoring": "\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040221",
+        "kick_off": "17:30 GMT undefined",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "13",
+            "scoring": "Try: Danielli 58' c Con: PatersonPen: Paterson (2) 3', 26'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "35",
+            "scoring":
+                "Try: Cohen 11' c Balshaw 31' cLewsey 48' mGrewcock 69' cCon: Grayson (3)Pen: Grayson (3) 16', 29', 66'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040222",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "36",
+            "scoring":
+                "Try: Byrne (2) 1' c, 40+2' m O'Driscoll (2) 15' c, 53' cO'Gara 31' mFoley 48' mCon: O'Gara (3)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "15",
+            "scoring": "Try: Shanklin (2) 64' m, 77' c Con: S. JonesPen: S. Jones 6'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040306",
+        "kick_off": "13:30 GMT undefined",
+        "home": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "20",
+            "scoring": "Try: Ongaro 42' m Pen: De Marigny (5) 3', 12', 40+5', 74', 80+5'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "14",
+            "scoring": "Try: Webster 80+7' m Pen: Paterson (3) 9', 35', 40+2'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040306",
+        "kick_off": "16:00 GMT undefined",
+        "home": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "13",
+            "scoring": "Try: Dawson 27' c Con: GraysonPen: Grayson (2) 32', 72'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "19",
+            "scoring": "Try: Dempsey 52' c Con: O'GaraPen: O'Gara (4) 17', 24', 34', 40+3'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040307",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "22",
+            "scoring":
+                "Try: M. Williams 80+5' c Con: S. JonesPen: S. Jones (5) 12', 19', 24', 27', 55'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "29",
+            "scoring":
+                "Try: Harinordoquy 40+1' c Élissalde 58' cCon: Élissalde (2)Pen: Élissalde (5) 6', 17', 46', 48', 74'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040320",
+        "kick_off": "13:30 GMT undefined",
+        "home": {
+            "team": "Ireland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "19",
+            "scoring": "Try: O'Kelly 29' m O'Driscoll 36' cHorgan 55' cCon: O'Gara (2)\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "win",
+            "bonus_points": null,
+            "score": "3",
+            "scoring": "Pen: De Marigny 72' \n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040320",
+        "kick_off": "16:00 GMT undefined",
+        "home": {
+            "team": "England",
+            "result": "win",
+            "bonus_points": null,
+            "score": "31",
+            "scoring":
+                "Try: Cohen (2) 6' c, 67' c Worsley 80+4' mCon: Barkley (2)Pen: Barkley (4) 19', 23', 40+6', 78'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Wales",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "21",
+            "scoring":
+                "Try: G. Thomas 42' c Taylor 51' mCon: S. JonesPen: S. Jones (3) 11', 15', 26'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040321",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "0",
+            "scoring": "\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "31",
+            "scoring":
+                "Try: Magne 7' m Jauzion (2) 68' c, 79' cCon: Yachvili (2)Pen: Yachvili (4) 15', 35', 43', 48'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040327",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "Wales",
+            "result": "win",
+            "bonus_points": null,
+            "score": "44",
+            "scoring":
+                "Try: S. Williams (2) 29' m, 69' c R. Williams (2) 36' m, 72' cG. Thomas 56' cShanklin 61' cCon: S. Jones (4)Pen: S. Jones (2) 12', 18'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Italy",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "10",
+            "scoring": "Try: Masi 64' c Con: WakaruaPen: De Marigny 3'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040327",
+        "kick_off": "16:00 GMT undefined",
+        "home": {
+            "team": "Ireland",
+            "result": "win",
+            "bonus_points": null,
+            "score": "37",
+            "scoring":
+                "Try: D'Arcy (2) 20' m, 79' c Murphy 40+1' mWallace 56' cStringer 66' cCon: O'Gara (3)Pen: O'Gara (2) 5', 26'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "Scotland",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "16",
+            "scoring": "Try: Hogg 51' c Con: PatersonPen: Paterson (2) 1', 24'Drop: Parks 38'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    },
+    {
+        "date": "20040327",
+        "kick_off": "20:00 GMT undefined",
+        "home": {
+            "team": "France",
+            "result": "win",
+            "bonus_points": null,
+            "score": "24",
+            "scoring":
+                "Try: Harinordoquy 26' m Yachvili 40+2' cCon: YachviliPen: Yachvili (4) 22', 35', 40', 52'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        },
+        "away": {
+            "team": "England",
+            "result": "loss",
+            "bonus_points": null,
+            "score": "21",
+            "scoring":
+                "Try: Cohen 53' m Lewsey 76' cCon: BarkleyPen: Barkley (3) 40+1', 49', 73'\n",
+            "tries": null,
+            "conversions": null,
+            "penalties": null,
+            "drop": null
+        }
+    }
+]
