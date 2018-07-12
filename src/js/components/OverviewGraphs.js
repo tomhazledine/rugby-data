@@ -1,6 +1,7 @@
 import React from 'react';
 
 import GraphHorizontalBar from './GraphHorizontalBar';
+import GraphDifferenceBar from './GraphDifferenceBar';
 
 const OverviewGraphs = ({ year, data }) => {
     return (
@@ -20,6 +21,12 @@ const OverviewGraphs = ({ year, data }) => {
                     title="Total score against"
                     sort={'score_against'}
                     modifier={'negative'}
+                />
+                <GraphDifferenceBar
+                    data={data}
+                    value="score_difference"
+                    title="Total score difference"
+                    sort={'score_difference'}
                 />
             </div>
         </div>

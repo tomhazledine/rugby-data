@@ -2,7 +2,7 @@ import React from 'react';
 
 import { remapDomain } from '../tools/dataWranglers';
 
-class GraphHorizontalBar extends React.Component {
+class GraphDifferenceBar extends React.Component {
     constructor() {
         super();
 
@@ -43,20 +43,38 @@ class GraphHorizontalBar extends React.Component {
 
         const valuesArray = this.props.data.map(team => team[this.props.value]);
         const maxValue = Math.max(...valuesArray);
-        const GLOBAL_MAX_VALUE = 30;
+        const minValue = Math.min(...valuesArray);
+        const zeroValue = Math.abs(minValue);
+        const maxWidth = maxValue + zeroValue;
+        const zeroPercentage = remapDomain(zeroValue, 0, maxWidth, 0, 100);
 
         const rows = data.map((row, key) => {
-            const widthPercentage = remapDomain(row[this.props.value], 0, maxValue, 0, 100);
+            const negativeValue = row[this.props.value] < 0 ? true : false;
+            const negativeClass = negativeValue ? 'negative' : '';
+
+            const normalized = Math.abs(row[this.props.value]);
+
+            const widthPercentage = remapDomain(normalized, 0, maxWidth, 0, 100);
+            const leftMarginPercentage = negativeValue
+                ? zeroPercentage - widthPercentage
+                : zeroPercentage;
+
             return (
-                <div className="graph__row" key={key}>
-                    <span className="graph__row-title">
-                        <span className="graph__row-title--main">{row.team}</span>
-                        {/*<span className="graph__row-title--extra">{row.position}</span>*/}
-                    </span>
+                <div
+                    className={`graph__row graph__row--${negativeClass}`}
+                    key={key}
+                    title={`${row.team}: ${row[this.props.value]}`}
+                >
                     <span className="graph__row-display-wrapper">
+                        <span className="graph__row-title">
+                            <span className="graph__row-title--main">{row.team}</span>
+                        </span>
                         <span
                             className="graph__row-display"
-                            style={{ width: `${widthPercentage}%` }}
+                            style={{
+                                width: `${widthPercentage}%`,
+                                marginLeft: `${leftMarginPercentage}%`
+                            }}
                         >
                             <span className="graph__row-value">{row[this.props.value]}</span>
                         </span>
@@ -73,7 +91,10 @@ class GraphHorizontalBar extends React.Component {
         return (
             <div className={`graph__bar--horizontal graph__bar--${modifierClass}`}>
                 <h3 className="table__title">{this.props.title}</h3>
-                <div className="graph__body">{rows}</div>
+                <div className="graph__body">
+                    <span className="graph__axis--y" style={{ left: `${zeroPercentage}%` }} />
+                    {rows}
+                </div>
                 <div className="graph__sorting">
                     Sort by:
                     <button
@@ -96,4 +117,4 @@ class GraphHorizontalBar extends React.Component {
     }
 }
 
-export default GraphHorizontalBar;
+export default GraphDifferenceBar;

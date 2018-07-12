@@ -5,10 +5,13 @@
     margin-top: 0.5rem;
     font-size: 0.8em;
     margin-right: 2rem;
+    position: relative;
+    margin-left: 2.5em;
     // font-family: $utility;
 }
 .graph__row {
     display: flex;
+    position: relative;
 }
 .graph__row-title {
     display: block;
@@ -16,6 +19,9 @@
     // text-align: right;
     // font-weight: 700;
     margin-right: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: -2.5em;
 }
 .graph__row-title--main {
     font-weight: 700;
@@ -28,18 +34,15 @@
 .graph__row-display-wrapper {
     display: block;
     width: 12em;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .graph__row-display {
     display: block;
     height: 1em;
     background: $lime;
     position: relative;
-}
-
-.graph__bar--negative {
-    .graph__row-display {
-        background: $puce--pale;
-    }
+    z-index: 1;
 }
 
 .graph__row-value {
@@ -51,6 +54,29 @@
     position: absolute;
     top: 0;
     right: 0;
+    cursor: default;
+}
+
+.graph__axis--y {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 0.1rem;
+    background: $black;
+    z-index: 2;
+}
+
+.graph__row--negative,
+.graph__bar--negative {
+    .graph__row-display {
+        background: $puce--pale;
+    }
+}
+
+.graph__row--negative .graph__row-value {
+    right: auto;
+    left: 0;
 }
 
 .graph__sorting {
