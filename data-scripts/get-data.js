@@ -3,6 +3,19 @@ import rp from 'request-promise';
 import { JSDOM } from 'jsdom';
 import moment from 'moment';
 
+const teamNames = initial => {
+    const teamDictionary = {
+        england: 'ENG',
+        france: 'FRA',
+        ireland: 'IRE',
+        italy: 'ITA',
+        scotland: 'SCO',
+        wales: 'WAL'
+    };
+    let fullName = teamDictionary[initial];
+    return fullName ? fullName : false;
+};
+
 const years = [
     '2000',
     '2001',
@@ -65,7 +78,10 @@ years.map(year => {
                     tables[1].querySelectorAll('th')[1].innerHTML,
                     document
                 );
-                let scores = scoreString.trim().split('–');
+                let scores = scoreString
+                    .trim()
+                    .split('–')
+                    .map(score => parseInt(score, 10));
                 let homeWin = scores[0] > scores[1] ? true : false;
                 let homeResult = scores[0] == scores[1] ? 'draw' : homeWin ? 'win' : 'loss';
                 let awayResult = scores[0] == scores[1] ? 'draw' : homeWin ? 'loss' : 'win';
@@ -84,26 +100,26 @@ years.map(year => {
                     date: dateResult,
                     kick_off: timeResult,
                     home: {
-                        team: homeTeam,
+                        team: teamNames(homeTeam.toLowerCase()),
                         result: homeResult,
-                        bonus_points: null,
+                        bonus_points: 0,
                         score: scores[0],
                         scoring: extractText(homeScoreInfo, document),
                         tries: null,
                         conversions: null,
                         penalties: null,
-                        drop: null
+                        drop: 0
                     },
                     away: {
-                        team: awayTeam,
+                        team: teamNames(awayTeam.toLowerCase()),
                         result: awayResult,
-                        bonus_points: null,
+                        bonus_points: 0,
                         score: scores[1],
                         scoring: extractText(awayScoreInfo, document),
                         tries: null,
                         conversions: null,
                         penalties: null,
-                        drop: null
+                        drop: 0
                     }
                 };
 

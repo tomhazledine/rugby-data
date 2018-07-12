@@ -3,407 +3,407 @@
         "date": "20080202",
         "kick_off": "14:00 undefined undefined",
         "home": {
-            "team": "Ireland",
+            "team": "IRE",
             "result": "win",
-            "bonus_points": null,
-            "score": "16",
+            "bonus_points": 0,
+            "score": 16,
             "scoring": "Try: Dempsey 18' c Con: O'Gara (1/1)Pen: O'Gara (3/4) 12', 57', 66'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 3,
+            "drop": 0
         },
         "away": {
-            "team": "Italy",
+            "team": "ITA",
             "result": "loss",
-            "bonus_points": null,
-            "score": "11",
+            "bonus_points": 0,
+            "score": 11,
             "scoring": "Try: Castrogiovanni 60' m Pen: Bortolussi (2/3) 38', 70'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 0,
+            "penalties": 2,
+            "drop": 0
         }
     },
     {
         "date": "20080202",
         "kick_off": "16:30 undefined undefined",
         "home": {
-            "team": "England",
+            "team": "ENG",
             "result": "loss",
-            "bonus_points": null,
-            "score": "19",
+            "bonus_points": 0,
+            "score": 19,
             "scoring":
                 "Try: Flood 23' c Con: Wilkinson (1/1)Pen: Wilkinson (3/4) 1', 11', 45'Drop: Wilkinson (1/1) 17'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 3,
+            "drop": 1
         },
         "away": {
-            "team": "Wales",
+            "team": "WAL",
             "result": "win",
-            "bonus_points": null,
-            "score": "26",
+            "bonus_points": 0,
+            "score": 26,
             "scoring":
                 "Try: Byrne 67' c Phillips 70' cCon: Hook (2/2)Pen: Hook (4/4) 4', 34', 57', 63'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 4,
+            "drop": 0
         }
     },
     {
         "date": "20080203",
         "kick_off": "15:00 undefined undefined",
         "home": {
-            "team": "Scotland",
-            "result": "win",
-            "bonus_points": null,
-            "score": "6",
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 6,
             "scoring": "Pen: Parks (1/2) 30' Drop: Parks (1/2) 4'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 1,
+            "drop": 1
         },
         "away": {
-            "team": "France",
-            "result": "loss",
-            "bonus_points": null,
-            "score": "27",
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 27,
             "scoring":
                 "Try: Clerc 12' c, 65' c Malzieu 23' cCon: Élissalde (2/2)Skrela(1/1)Pen: Traille (2/2) 18', 55'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 2,
+            "drop": 0
         }
     },
     {
         "date": "20080209",
         "kick_off": "14:00 undefined undefined",
         "home": {
-            "team": "Wales",
+            "team": "WAL",
             "result": "win",
-            "bonus_points": null,
-            "score": "30",
+            "bonus_points": 0,
+            "score": 30,
             "scoring":
                 "Try: S. Williams 13' c, 68' c Hook 46' cCon: Hook (2/2)S. Jones (1/1)Pen: Hook (1/1) 28'S. Jones (2/2) 63', 71'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 3,
+            "drop": 0
         },
         "away": {
-            "team": "Scotland",
+            "team": "SCO",
             "result": "loss",
-            "bonus_points": null,
-            "score": "15",
+            "bonus_points": 0,
+            "score": 15,
             "scoring": "Pen: Paterson (5/5) 10', 32', 42', 50', 55 \n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 5,
+            "drop": 0
         }
     },
     {
         "date": "20080209",
         "kick_off": "16:00 undefined undefined",
         "home": {
-            "team": "France",
+            "team": "FRA",
             "result": "win",
-            "bonus_points": null,
-            "score": "26",
+            "bonus_points": 0,
+            "score": 26,
             "scoring": "Try: Clerc 14' c, 18' m, 35' c Heymans 48' cCon: Élissalde (3/4)\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 4,
+            "conversions": 3,
+            "penalties": 0,
+            "drop": 0
         },
         "away": {
-            "team": "Ireland",
+            "team": "IRE",
             "result": "loss",
-            "bonus_points": null,
-            "score": "21",
+            "bonus_points": 0,
+            "score": 21,
             "scoring":
                 "Try: Penalty try 55' c D. Wallace 59' mCon: O'Gara (1/2)Pen: O'Gara (3/3) 17', 28', 74'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 2,
+            "conversions": 1,
+            "penalties": 3,
+            "drop": 0
         }
     },
     {
         "date": "20080210",
         "kick_off": "14:30 undefined undefined",
         "home": {
-            "team": "Italy",
+            "team": "ITA",
             "result": "loss",
-            "bonus_points": null,
-            "score": "19",
+            "bonus_points": 0,
+            "score": 19,
             "scoring":
                 "Try: Picone 76' c Con: Bortolussi (1/1)Pen: Bortolussi (4/4) 5', 11', 44', 54'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 4,
+            "drop": 0
         },
         "away": {
-            "team": "England",
+            "team": "ENG",
             "result": "win",
-            "bonus_points": null,
-            "score": "23",
+            "bonus_points": 0,
+            "score": 23,
             "scoring":
                 "Try: Sackey 3' c Flood 15' cCon: Wilkinson (2/2)Pen: Wilkinson (3/4) 31', 37', 57'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 3,
+            "drop": 0
         }
     },
     {
         "date": "20080223",
         "kick_off": "15:00 undefined undefined",
         "home": {
-            "team": "Wales",
-            "result": "loss",
-            "bonus_points": null,
-            "score": "47",
+            "team": "WAL",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 47,
             "scoring":
                 "Try: Byrne 28' c, 68' c Shanklin 42' cS. Williams 57' c, 74' cCon: S. Jones (3/3) Hook (2/2)Pen: S. Jones (4/4) 4', 11', 47', 50'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 5,
+            "conversions": 5,
+            "penalties": 4,
+            "drop": 0
         },
         "away": {
-            "team": "Italy",
-            "result": "win",
-            "bonus_points": null,
-            "score": "8",
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 8,
             "scoring": "Try: Castrogiovanni 12' m Pen: Marcato (1/2) 40+2'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 0,
+            "penalties": 1,
+            "drop": 0
         }
     },
     {
         "date": "20080223",
         "kick_off": "17:00 undefined undefined",
         "home": {
-            "team": "Ireland",
+            "team": "IRE",
             "result": "win",
-            "bonus_points": null,
-            "score": "34",
+            "bonus_points": 0,
+            "score": 34,
             "scoring":
                 "Try: D. Wallace 22' c Kearney 26' cHoran 41' mBowe 62' c, 79' mCon: O'Gara (3/5)Pen: O'Gara (1/1) 50'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 5,
+            "conversions": 3,
+            "penalties": 1,
+            "drop": 0
         },
         "away": {
-            "team": "Scotland",
+            "team": "SCO",
             "result": "loss",
-            "bonus_points": null,
-            "score": "13",
+            "bonus_points": 0,
+            "score": 13,
             "scoring": "Try: Webster 53' c Con: Paterson (1/1)Pen: Paterson (2/2) 24', 31'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 0
         }
     },
     {
         "date": "20080223",
         "kick_off": "20:00 undefined undefined",
         "home": {
-            "team": "France",
+            "team": "FRA",
             "result": "loss",
-            "bonus_points": null,
-            "score": "13",
+            "bonus_points": 0,
+            "score": 13,
             "scoring":
                 "Try: Nallet 24' c Con: Traille(1/1)Pen: Parra (1/1) 49'Yachvili (1/1) 74'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 0
         },
         "away": {
-            "team": "England",
+            "team": "ENG",
             "result": "win",
-            "bonus_points": null,
-            "score": "24",
+            "bonus_points": 0,
+            "score": 24,
             "scoring":
                 "Try: Sackey 5' c Wigglesworth 79' mCon: Wilkinson (1/2)Pen: Wilkinson (3/5) 14', 29', 68'Drop: Wilkinson (1/2) 64'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 2,
+            "conversions": 1,
+            "penalties": 3,
+            "drop": 1
         }
     },
     {
         "date": "20080308",
         "kick_off": "13:15 undefined undefined",
         "home": {
-            "team": "Ireland",
+            "team": "IRE",
             "result": "loss",
-            "bonus_points": null,
-            "score": "12",
+            "bonus_points": 0,
+            "score": 12,
             "scoring": "Pen: O'Gara (4/4) 5', 19', 62', 68' \n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 4,
+            "drop": 0
         },
         "away": {
-            "team": "Wales",
+            "team": "WAL",
             "result": "win",
-            "bonus_points": null,
-            "score": "16",
+            "bonus_points": 0,
+            "score": 16,
             "scoring":
                 "Try: S. Williams 51' c Con: S. Jones (1/1)Pen: S. Jones (2/4) 26', 46'Hook (1/1) 76'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 3,
+            "drop": 0
         }
     },
     {
         "date": "20080308",
         "kick_off": "15:15 undefined undefined",
         "home": {
-            "team": "Scotland",
-            "result": "loss",
-            "bonus_points": null,
-            "score": "15",
+            "team": "SCO",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 15,
             "scoring": "Pen: Paterson (4/4) 9', 31', 40+2', 41' Parks (1/1) 48'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 5,
+            "drop": 0
         },
         "away": {
-            "team": "England",
-            "result": "win",
-            "bonus_points": null,
-            "score": "9",
+            "team": "ENG",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 9,
             "scoring": "Pen: Wilkinson (3/5) 27', 50', 53' \n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 3,
+            "drop": 0
         }
     },
     {
         "date": "20080309",
         "kick_off": "15:00 undefined undefined",
         "home": {
-            "team": "France",
+            "team": "FRA",
             "result": "win",
-            "bonus_points": null,
-            "score": "25",
+            "bonus_points": 0,
+            "score": 25,
             "scoring":
                 "Try: Floch 13' c Jauzion 53' mRougerie 66' cCon: Yachvili (2/3)Pen: Yachvili (2/2) 27', 37'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 3,
+            "conversions": 2,
+            "penalties": 2,
+            "drop": 0
         },
         "away": {
-            "team": "Italy",
+            "team": "ITA",
             "result": "loss",
-            "bonus_points": null,
-            "score": "13",
+            "bonus_points": 0,
+            "score": 13,
             "scoring": "Try: Castrogiovanni 58' c Con: Marcato (1/1)Pen: Marcato (2/2) 18', 31'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 0
         }
     },
     {
         "date": "20080315",
         "kick_off": "13:00 undefined undefined",
         "home": {
-            "team": "Italy",
+            "team": "ITA",
             "result": "win",
-            "bonus_points": null,
-            "score": "23",
+            "bonus_points": 0,
+            "score": 23,
             "scoring":
                 "Try: Penalty try 13' c Canale 59' cCon: Marcato (2/2)Pen: Marcato (2/4) 36', 68'Drop: Marcato (1/1) 79'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 2,
+            "drop": 1
         },
         "away": {
-            "team": "Scotland",
+            "team": "SCO",
             "result": "loss",
-            "bonus_points": null,
-            "score": "20",
+            "bonus_points": 0,
+            "score": 20,
             "scoring":
                 "Try: Hogg 21' c Blair 40' cCon: Paterson (2/2)Pen: Parks (1/1) 25'Paterson (1/1) 72'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 2,
+            "drop": 0
         }
     },
     {
         "date": "20080315",
         "kick_off": "15:00 undefined undefined",
         "home": {
-            "team": "England",
+            "team": "ENG",
             "result": "win",
-            "bonus_points": null,
-            "score": "33",
+            "bonus_points": 0,
+            "score": 33,
             "scoring":
                 "Try: Sackey 19' c Tait 57' c Noon 69' cCon: Cipriani (3/3)Pen: Cipriani (4/4) 12', 30', 44', 73'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 4,
+            "drop": 0
         },
         "away": {
-            "team": "Ireland",
+            "team": "IRE",
             "result": "loss",
-            "bonus_points": null,
-            "score": "10",
+            "bonus_points": 0,
+            "score": 10,
             "scoring": "Try: Kearney 4' c Con: O'Gara (1/1)Pen: O'Gara (1/2) 7'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 1,
+            "drop": 0
         }
     },
     {
         "date": "20080315",
         "kick_off": "17:00 undefined undefined",
         "home": {
-            "team": "Wales",
+            "team": "WAL",
             "result": "win",
-            "bonus_points": null,
-            "score": "29",
+            "bonus_points": 0,
+            "score": 29,
             "scoring":
                 "Try: S. Williams 60' c M. Williams 77' cCon: S. Jones (2/2)Pen: Hook (3/5) 5', 18', 21'S. Jones (2/2) 63', 74'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 5,
+            "drop": 0
         },
         "away": {
-            "team": "France",
+            "team": "FRA",
             "result": "loss",
-            "bonus_points": null,
-            "score": "12",
+            "bonus_points": 0,
+            "score": 12,
             "scoring": "Pen: Élissalde (3/3) 19', 39', 46'  Yachvili (1/1) 69'\n",
-            "tries": null,
-            "conversions": null,
-            "penalties": null,
-            "drop": null
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 4,
+            "drop": 0
         }
     }
 ]
