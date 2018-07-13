@@ -13,7 +13,7 @@ class Overview extends React.Component {
             let oldPoints = parseInt(year.year) < 2017 ? true : false;
             let stats = teamStats(year.teams, year.matches, oldPoints);
             let results = sortResults(stats);
-            console.log(results);
+            // console.log(results);
             return (
                 <div key={key} className="year">
                     <ResultsTable year={year.year} data={results} />

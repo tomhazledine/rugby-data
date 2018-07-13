@@ -1,1 +1,406 @@
-[{"date":"20010203","kick_off":" undefined undefined","home":{"team":"ITA","result":"loss","bonus_points":null,"score":22,"scoring":"Try: Bergamasco ChecchinatoPilatCon: Pez (2/3)Pen: Pilat (1)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"IRE","result":"win","bonus_points":null,"score":41,"scoring":"Try: Henderson (3) HorganO'GaraCon: O'Gara (2/5)Pen: O'Gara (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010203","kick_off":" undefined undefined","home":{"team":"WAL","result":"loss","bonus_points":null,"score":15,"scoring":"Try: Howley QuinnellCon: Jenkins (1/2)Pen: Jenkins (1)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":false,"result":"win","bonus_points":null,"score":44,"scoring":"Try: Greenwood (3) Dawson (2)CohenCon: Wilkinson (4/6)Pen: Wilkinson (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010204","kick_off":" undefined undefined","home":{"team":"FRA","result":"win","bonus_points":null,"score":16,"scoring":"Try: Bernat-Salles Con: Lamaison (1/1)Pen: Lamaison (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"SCO","result":"loss","bonus_points":null,"score":6,"scoring":"Pen: Logan (2) \n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010217","kick_off":" undefined undefined","home":{"team":"IRE","result":"win","bonus_points":null,"score":22,"scoring":"Try: Brian O'DriscollCon:Ronan O'GaraPen:Ronan O'Gara (5)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"FRA","result":"loss","bonus_points":null,"score":15,"scoring":"Tries: Philippe Bernat-Salles, Fabien PelousCon:Christophe LamaisonPen:Christophe Lamaison\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010217","kick_off":" undefined undefined","home":{"team":false,"result":"win","bonus_points":null,"score":80,"scoring":"Tries: Iain Balshaw (2), Ben Cohen, Lawrence Dallaglio, Will Greenwood, Austin Healey (2), Mark Regan, Jonny Wilkinson, Joe WorsleyCon: Jonny Wilkinson (9)Pen: Jonny Wilkinson (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"ITA","result":"loss","bonus_points":null,"score":23,"scoring":"Tries: Carlo Checchinato, Denis DallanCon: Andrea Scanavacca (2)Pen: Andrea Scanavacca (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010217","kick_off":" undefined undefined","home":{"team":"SCO","result":"draw","bonus_points":null,"score":28,"scoring":"Tries: James McLaren, Tom Smith, Chris PatersonCon:Kenny Logan, Duncan HodgePen:Kenny Logan (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"WAL","result":"draw","bonus_points":null,"score":28,"scoring":"Try: Mark TaylorCon:Neil JenkinsPen:Neil Jenkins (4)Drop Goals:Neil Jenkins (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010303","kick_off":" undefined undefined","home":{"team":"ITA","result":"loss","bonus_points":null,"score":19,"scoring":"Try: Massimo PerzianoCon:Diego DominguezPen:Diego Dominguez (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"FRA","result":"win","bonus_points":null,"score":30,"scoring":"Tries: Philippe Bernat-Salles, Sebastien Bonetti, Jean-Luc SadournyCon:Christophe Lamaison (3)Pen:Christophe Lamaison (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010303","kick_off":" undefined undefined","home":{"team":false,"result":"win","bonus_points":null,"score":43,"scoring":"Tries: Iain Balshaw (2), Lawrence Dallaglio (2), Will Greenwood, Richard HillCon:Jonny Wilkinson (5)Pen:Jonny Wilkinson\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"SCO","result":"loss","bonus_points":null,"score":3,"scoring":"Pen: Duncan Hodge\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010317","kick_off":" undefined undefined","home":{"team":"FRA","result":"loss","bonus_points":null,"score":35,"scoring":"Tries: Philippe Bernat-Salles, Sebastien BonettiCon:Christophe Lamaison, Gerald MerceronPen:Gerald Merceron (4), Christophe Lamaison (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"WAL","result":"win","bonus_points":null,"score":43,"scoring":"Tries: Robert Howley, Neil Jenkins, Dafydd James, Scott QuinnellCon:Neil Jenkins (4)Pen:Neil Jenkins (3)Drop Goals:Neil Jenkins (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010317","kick_off":" undefined undefined","home":{"team":"SCO","result":"win","bonus_points":null,"score":23,"scoring":"Try: Tom SmithPen:Duncan Hodge (5)Drop Goals:Duncan Hodge\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"ITA","result":"loss","bonus_points":null,"score":19,"scoring":"Try: Mauro BergamascoCon:Diego DominguezPen:Diego Dominguez (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010407","kick_off":" undefined undefined","home":{"team":false,"result":"win","bonus_points":null,"score":48,"scoring":"Tries: Iain Balshaw, Mike Catt, Phil Greening, Will Greenwood, Richard Hill, Matt Perry Cons: Jonny Wilkinson (6)Pens: Jonny Wilkinson (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"FRA","result":"loss","bonus_points":null,"score":19,"scoring":"Tries: Philippe Bernat-Salles Cons: Gerald MerceronPens: Gerald Merceron (3)Drops: Gerald Merceron\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010408","kick_off":" undefined undefined","home":{"team":"ITA","result":"loss","bonus_points":null,"score":23,"scoring":"Try: Carlo ChecchinatoPen:Diego Dominguez (5)Drop Goal:Diego Dominguez\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"WAL","result":"win","bonus_points":null,"score":33,"scoring":"Tries: Gareth Cooper (2), Scott Gibbs Con:Neil Jenkins (3)Pen:Neil Jenkins (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20010922","kick_off":" undefined undefined","home":{"team":"SCO","result":"win","bonus_points":null,"score":32,"scoring":"Tries: Andrew Henderson, John Leslie, Budge Pountney, Tom SmithCon:Chris Paterson (2), Gregor TownsendPen:Chris Paterson (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"IRE","result":"loss","bonus_points":null,"score":10,"scoring":"Try: Girvan DempseyCon:David HumphreysPen:Ronan O'Gara\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20011013","kick_off":" undefined undefined","home":{"team":"WAL","result":"loss","bonus_points":null,"score":6,"scoring":"Pens: Stephen Jones (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"IRE","result":"win","bonus_points":null,"score":36,"scoring":"Tries: Denis Hickie, Shane Horgan, Brian O'Driscoll Cons: David Humphreys (3)Pens: David Humphreys (5)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20011020","kick_off":" undefined undefined","home":{"team":"IRE","result":"win","bonus_points":null,"score":20,"scoring":"Try: Keith WoodPen:David Humphreys (3), Ronan O'Gara (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":false,"result":"loss","bonus_points":null,"score":14,"scoring":"Try: Austin HealeyPen:Jonny Wilkinson (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null}}]
+[
+    {
+        "date": "20010203",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 22,
+            "scoring": "Try: Bergamasco ChecchinatoPilatCon: Pez (2/3)Pen: Pilat (1)\n",
+            "tries": 3,
+            "conversions": 2,
+            "penalties": 1,
+            "drop": 0
+        },
+        "away": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 41,
+            "scoring": "Try: Henderson (3) HorganO'GaraCon: O'Gara (2/5)Pen: O'Gara (4)\n",
+            "tries": 5,
+            "conversions": 2,
+            "penalties": 4,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010203",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 15,
+            "scoring": "Try: Howley QuinnellCon: Jenkins (1/2)Pen: Jenkins (1)\n",
+            "tries": 2,
+            "conversions": 1,
+            "penalties": 1,
+            "drop": 0
+        },
+        "away": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 44,
+            "scoring": "Try: Greenwood (3) Dawson (2)CohenCon: Wilkinson (4/6)Pen: Wilkinson (2)\n",
+            "tries": 6,
+            "conversions": 4,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010204",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 16,
+            "scoring": "Try: Bernat-Salles Con: Lamaison (1/1)Pen: Lamaison (3)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 6,
+            "scoring": "Pen: Logan (2) \n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010217",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 22,
+            "scoring": "Try: Brian O'DriscollCon:Ronan O'GaraPen:Ronan O'Gara (5)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 5,
+            "drop": 0
+        },
+        "away": {
+            "team": "FRA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 15,
+            "scoring":
+                "Tries: Philippe Bernat-Salles, Fabien PelousCon:Christophe LamaisonPen:Christophe Lamaison\n",
+            "tries": 2,
+            "conversions": 1,
+            "penalties": 1,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010217",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 80,
+            "scoring":
+                "Tries: Iain Balshaw (2), Ben Cohen, Lawrence Dallaglio, Will Greenwood, Austin Healey (2), Mark Regan, Jonny Wilkinson, Joe WorsleyCon: Jonny Wilkinson (9)Pen: Jonny Wilkinson (4)\n",
+            "tries": 10,
+            "conversions": 9,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 23,
+            "scoring":
+                "Tries: Carlo Checchinato, Denis DallanCon: Andrea Scanavacca (2)Pen: Andrea Scanavacca (3)\n",
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 3,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010217",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "SCO",
+            "result": "draw",
+            "bonus_points": 0,
+            "score": 28,
+            "scoring":
+                "Tries: James McLaren, Tom Smith, Chris PatersonCon:Kenny Logan, Duncan HodgePen:Kenny Logan (3)\n",
+            "tries": 3,
+            "conversions": 2,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "WAL",
+            "result": "draw",
+            "bonus_points": 0,
+            "score": 28,
+            "scoring":
+                "Try: Mark TaylorCon:Neil JenkinsPen:Neil Jenkins (4)Drop Goals:Neil Jenkins (3)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 4,
+            "drop": 3
+        }
+    },
+    {
+        "date": "20010303",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 19,
+            "scoring": "Try: Massimo PerzianoCon:Diego DominguezPen:Diego Dominguez (4)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 30,
+            "scoring":
+                "Tries: Philippe Bernat-Salles, Sebastien Bonetti, Jean-Luc SadournyCon:Christophe Lamaison (3)Pen:Christophe Lamaison (3)\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 3,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010303",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 43,
+            "scoring":
+                "Tries: Iain Balshaw (2), Lawrence Dallaglio (2), Will Greenwood, Richard HillCon:Jonny Wilkinson (5)Pen:Jonny Wilkinson\n",
+            "tries": 6,
+            "conversions": 5,
+            "penalties": 1,
+            "drop": 0
+        },
+        "away": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 3,
+            "scoring": "Pen: Duncan Hodge\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 1,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010317",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "FRA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 35,
+            "scoring":
+                "Tries: Philippe Bernat-Salles, Sebastien BonettiCon:Christophe Lamaison, Gerald MerceronPen:Gerald Merceron (4), Christophe Lamaison (3)\n",
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 7,
+            "drop": 0
+        },
+        "away": {
+            "team": "WAL",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 43,
+            "scoring":
+                "Tries: Robert Howley, Neil Jenkins, Dafydd James, Scott QuinnellCon:Neil Jenkins (4)Pen:Neil Jenkins (3)Drop Goals:Neil Jenkins (2)\n",
+            "tries": 4,
+            "conversions": 4,
+            "penalties": 3,
+            "drop": 2
+        }
+    },
+    {
+        "date": "20010317",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "SCO",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 23,
+            "scoring": "Try: Tom SmithPen:Duncan Hodge (5)Drop Goals:Duncan Hodge\n",
+            "tries": 1,
+            "conversions": 0,
+            "penalties": 5,
+            "drop": 1
+        },
+        "away": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 19,
+            "scoring": "Try: Mauro BergamascoCon:Diego DominguezPen:Diego Dominguez (4)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 4,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010407",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 48,
+            "scoring":
+                "Tries: Iain Balshaw, Mike Catt, Phil Greening, Will Greenwood, Richard Hill, Matt Perry Cons: Jonny Wilkinson (6)Pens: Jonny Wilkinson (2)\n",
+            "tries": 6,
+            "conversions": 6,
+            "penalties": 2,
+            "drop": 0
+        },
+        "away": {
+            "team": "FRA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 19,
+            "scoring":
+                "Tries: Philippe Bernat-Salles Cons: Gerald MerceronPens: Gerald Merceron (3)Drops: Gerald Merceron\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 3,
+            "drop": 1
+        }
+    },
+    {
+        "date": "20010408",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 23,
+            "scoring": "Try: Carlo ChecchinatoPen:Diego Dominguez (5)Drop Goal:Diego Dominguez\n",
+            "tries": 1,
+            "conversions": 0,
+            "penalties": 5,
+            "drop": 1
+        },
+        "away": {
+            "team": "WAL",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 33,
+            "scoring":
+                "Tries: Gareth Cooper (2), Scott Gibbs Con:Neil Jenkins (3)Pen:Neil Jenkins (4)\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 4,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20010922",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "SCO",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 32,
+            "scoring":
+                "Tries: Andrew Henderson, John Leslie, Budge Pountney, Tom SmithCon:Chris Paterson (2), Gregor TownsendPen:Chris Paterson (2)\n",
+            "tries": 4,
+            "conversions": 3,
+            "penalties": 2,
+            "drop": 0
+        },
+        "away": {
+            "team": "IRE",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 10,
+            "scoring": "Try: Girvan DempseyCon:David HumphreysPen:Ronan O'Gara\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 1,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20011013",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 6,
+            "scoring": "Pens: Stephen Jones (2)\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 2,
+            "drop": 0
+        },
+        "away": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 36,
+            "scoring":
+                "Tries: Denis Hickie, Shane Horgan, Brian O'Driscoll Cons: David Humphreys (3)Pens: David Humphreys (5)\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 5,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20011020",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 20,
+            "scoring": "Try: Keith WoodPen:David Humphreys (3), Ronan O'Gara (2)\n",
+            "tries": 1,
+            "conversions": 0,
+            "penalties": 5,
+            "drop": 0
+        },
+        "away": {
+            "team": "ENG",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 14,
+            "scoring": "Try: Austin HealeyPen:Jonny Wilkinson (3)\n",
+            "tries": 1,
+            "conversions": 0,
+            "penalties": 3,
+            "drop": 0
+        }
+    }
+]

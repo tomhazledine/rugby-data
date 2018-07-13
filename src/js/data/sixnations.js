@@ -5692,27 +5692,2043 @@ const sixNationsData = [
     {
         year: 2004,
         teams: ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'],
-        matches: []
+        matches: [
+            {
+                date: '20040214',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 35,
+                    scoring:
+                        "Try: Clerc 28' m Pape 51' cJauzion 55' cÉlissalde 77' cCon: Michalak (3)Pen: Michalak (3) 21', 33', 60'\n",
+                    tries: 4,
+                    conversions: 3,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 17,
+                    scoring: "Try: Foley 44' c Howe 70' cCon: O'Gara (2)Pen: O'Gara 6'\n",
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040214',
+                kick_off: '16:00 GMT undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 23,
+                    scoring:
+                        "Try: R. Williams (2) 3' c, 50' m A. Jones 15' mCon: S. JonesPen: S. Jones (2) 25', 40+2'\n",
+                    tries: 3,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 10,
+                    scoring: "Try: Taylor 80+6' c Con: PatersonDrop: Paterson 8'\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 0,
+                    drop: 1
+                }
+            },
+            {
+                date: '20040215',
+                kick_off: '15:00 GMT undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 9,
+                    scoring: "Pen: Wakarua (2) 22', 29' Drop: Wakarua 6'\n",
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 2,
+                    drop: 1
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 50,
+                    scoring:
+                        "Try: Balshaw 16' c Robinson (3) 23' m, 40+3' m, 64' mLewsey 59' cGrayson 70' cJones 80+6' mCon: Grayson (3)Pen: Grayson (3) 2', 20', 36'\n",
+                    tries: 7,
+                    conversions: 3,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040221',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 25,
+                    scoring:
+                        "Try: Harinordoquy (2) 25' c, 65' c Elhorga 75' mCon: Élissalde (2)Pen: Élissalde 13'Traille 42'\n",
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 0,
+                    scoring: '\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 0,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040221',
+                kick_off: '17:30 GMT undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 13,
+                    scoring: "Try: Danielli 58' c Con: PatersonPen: Paterson (2) 3', 26'\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 35,
+                    scoring:
+                        "Try: Cohen 11' c Balshaw 31' cLewsey 48' mGrewcock 69' cCon: Grayson (3)Pen: Grayson (3) 16', 29', 66'\n",
+                    tries: 4,
+                    conversions: 3,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040222',
+                kick_off: '15:00 GMT undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 36,
+                    scoring:
+                        "Try: Byrne (2) 1' c, 40+2' m O'Driscoll (2) 15' c, 53' cO'Gara 31' mFoley 48' mCon: O'Gara (3)\n",
+                    tries: 6,
+                    conversions: 3,
+                    penalties: 0,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 15,
+                    scoring: "Try: Shanklin (2) 64' m, 77' c Con: S. JonesPen: S. Jones 6'\n",
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040306',
+                kick_off: '13:30 GMT undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 20,
+                    scoring: "Try: Ongaro 42' m Pen: De Marigny (5) 3', 12', 40+5', 74', 80+5'\n",
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 5,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 14,
+                    scoring: "Try: Webster 80+7' m Pen: Paterson (3) 9', 35', 40+2'\n",
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040306',
+                kick_off: '16:00 GMT undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 13,
+                    scoring: "Try: Dawson 27' c Con: GraysonPen: Grayson (2) 32', 72'\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 19,
+                    scoring: "Try: Dempsey 52' c Con: O'GaraPen: O'Gara (4) 17', 24', 34', 40+3'\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040307',
+                kick_off: '15:00 GMT undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 22,
+                    scoring:
+                        "Try: M. Williams 80+5' c Con: S. JonesPen: S. Jones (5) 12', 19', 24', 27', 55'\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 5,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 29,
+                    scoring:
+                        "Try: Harinordoquy 40+1' c Élissalde 58' cCon: Élissalde (2)Pen: Élissalde (5) 6', 17', 46', 48', 74'\n",
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 5,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040320',
+                kick_off: '13:30 GMT undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 19,
+                    scoring: "Try: O'Kelly 29' m O'Driscoll 36' cHorgan 55' cCon: O'Gara (2)\n",
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 0,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 3,
+                    scoring: "Pen: De Marigny 72' \n",
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040320',
+                kick_off: '16:00 GMT undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 31,
+                    scoring:
+                        "Try: Cohen (2) 6' c, 67' c Worsley 80+4' mCon: Barkley (2)Pen: Barkley (4) 19', 23', 40+6', 78'\n",
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 21,
+                    scoring:
+                        "Try: G. Thomas 42' c Taylor 51' mCon: S. JonesPen: S. Jones (3) 11', 15', 26'\n",
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040321',
+                kick_off: '15:00 GMT undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 0,
+                    scoring: '\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 0,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 31,
+                    scoring:
+                        "Try: Magne 7' m Jauzion (2) 68' c, 79' cCon: Yachvili (2)Pen: Yachvili (4) 15', 35', 43', 48'\n",
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 4,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040327',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 44,
+                    scoring:
+                        "Try: S. Williams (2) 29' m, 69' c R. Williams (2) 36' m, 72' cG. Thomas 56' cShanklin 61' cCon: S. Jones (4)Pen: S. Jones (2) 12', 18'\n",
+                    tries: 6,
+                    conversions: 4,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 10,
+                    scoring: "Try: Masi 64' c Con: WakaruaPen: De Marigny 3'\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20040327',
+                kick_off: '16:00 GMT undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 37,
+                    scoring:
+                        "Try: D'Arcy (2) 20' m, 79' c Murphy 40+1' mWallace 56' cStringer 66' cCon: O'Gara (3)Pen: O'Gara (2) 5', 26'\n",
+                    tries: 5,
+                    conversions: 3,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 16,
+                    scoring:
+                        "Try: Hogg 51' c Con: PatersonPen: Paterson (2) 1', 24'Drop: Parks 38'\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 1
+                }
+            },
+            {
+                date: '20040327',
+                kick_off: '20:00 GMT undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 24,
+                    scoring:
+                        "Try: Harinordoquy 26' m Yachvili 40+2' cCon: YachviliPen: Yachvili (4) 22', 35', 40', 52'\n",
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 21,
+                    scoring:
+                        "Try: Cohen 53' m Lewsey 76' cCon: BarkleyPen: Barkley (3) 40+1', 49', 73'\n",
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 3,
+                    drop: 0
+                }
+            }
+        ]
     },
     {
         year: 2003,
         teams: ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'],
-        matches: []
+        matches: [
+            {
+                date: '20030215',
+                kick_off: '13:30 GMT undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 30,
+                    scoring:
+                        'Try: De Carli FestucciaPhillipsCon: Dominguez (3)Pen: Dominguez (2)Drop: Dominguez\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 2,
+                    drop: 1
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 22,
+                    scoring: 'Try: Shanklin S. WilliamsPeelCon: Harris (2)Pen: Harris\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030215',
+                kick_off: '16:00 GMT undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 25,
+                    scoring: 'Try: Robinson Con: WilkinsonPen: Wilkinson (5)Drop: Wilkinson\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 5,
+                    drop: 1
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 17,
+                    scoring: 'Try: Magne PoitrenaudTrailleCon: Merceron\n',
+                    tries: 3,
+                    conversions: 1,
+                    penalties: null,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030216',
+                kick_off: '15:00 GMT undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 6,
+                    scoring: 'Pen: Ross (2) \n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 36,
+                    scoring: 'Try: Hickie MurphyHumphreysCon: Humphreys (3)Pen: Humphreys (5)\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 5,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030222',
+                kick_off: '14:30 GMT undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 13,
+                    scoring: 'Try: Dallan Con: PezPen: DominguezPez\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 37,
+                    scoring:
+                        "Tries: Stringer O'DriscollKellyHumphreysMurphyCon: Humphreys (3)Pen: Humphreys (2)\n",
+                    tries: 5,
+                    conversions: 3,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030222',
+                kick_off: '17:30 GMT undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 9,
+                    scoring: 'Pen: Ceri Sweeney (3)\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 26,
+                    scoring:
+                        'Tries: Greenwood WorsleyCon: Wilkinson (2)Pen: Wilkinson (2)Drop: Wilkinson (2)\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 2,
+                    drop: 2
+                }
+            },
+            {
+                date: '20030223',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 38,
+                    scoring:
+                        'Tries: Pelous PoitrenaudTrailleRougerieCon: Gelez (3)Pen: Gelez (4)\n',
+                    tries: 4,
+                    conversions: 3,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 3,
+                    scoring: 'Pen: Paterson\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030308',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 15,
+                    scoring: 'Pen: Humphreys (4) Drop: Murphy\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 4,
+                    drop: 1
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 12,
+                    scoring: 'Pen: Gelez (4)\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 4,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030308',
+                kick_off: '16:00 GMT undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 30,
+                    scoring: 'Tries: Douglas TaylorPatersonCon: Paterson (3)Pen: Paterson (3)\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 22,
+                    scoring: 'Tries: Cooper TaylorR. WilliamsCon: S. Jones (2)Pen: S. Jones\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030309',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 40,
+                    scoring:
+                        'Tries: Lewsey (2) ThompsonSimpson-DanielTindallLugerCon: Wilkinson (4)Dawson\n',
+                    tries: 6,
+                    conversions: 5,
+                    penalties: 0,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 5,
+                    scoring: 'Try: Mi. Bergamasco\n',
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 0,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030322',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 24,
+                    scoring: 'Tries: S. Jones M. WilliamsThomasCon: S. Jones (3)Drop: S. Jones\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 0,
+                    drop: 1
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 25,
+                    scoring: "Tries: Gleeson (2) Pen: Humphreys (4)Drop: O'Gara\n",
+                    tries: 2,
+                    conversions: 0,
+                    penalties: 4,
+                    drop: 1
+                }
+            },
+            {
+                date: '20030322',
+                kick_off: '16:00 GMT undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 40,
+                    scoring:
+                        'Tries: Robinson (2) CohenLewseyCon: Wilkinson (3)Paul GraysonPen: Wilkinson (4)\n',
+                    tries: 4,
+                    conversions: 4,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 9,
+                    scoring: 'Pen: Paterson (3)\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030323',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 27,
+                    scoring: 'Tries: Pez Mi. BergamascoPersicoPhillipsCon: Pez (2)Pen: Pez\n',
+                    tries: 4,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 53,
+                    scoring:
+                        'Tries: Traille (2) Rougerie (2)BetsenMichalakCastaignèdeCon: Yachvili (6)Pen: Yachvili (2)\n',
+                    tries: 7,
+                    conversions: 6,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030329',
+                kick_off: '13:00 GMT undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 33,
+                    scoring: 'Tries: Castaginède ClercMichalakCon: Yachvili (3)Pen: Yachvili (4)\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 5,
+                    scoring: 'Try: Thomas\n',
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 0,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030329',
+                kick_off: '15:00 GMT undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 33,
+                    scoring:
+                        'Tries: White McLarenLoganPatersonCon: Paterson (2)Pen: Paterson (3)\n',
+                    tries: 4,
+                    conversions: 2,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 25,
+                    scoring: 'Tries: Mi. Bergamasco PezPalmerCon: Pez (2)Pen: Pez (2)\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20030330',
+                kick_off: '14:00 GMT undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 6,
+                    scoring: 'Pen: Humphreys Drop: Humphreys\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 1,
+                    drop: 1
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 42,
+                    scoring:
+                        'Tries: Greenwood (2) DallaglioTindallLugerCon: Wilkinson (3)GraysonPen: WilkinsonDrop: Wilkinson (2)\n',
+                    tries: 5,
+                    conversions: 4,
+                    penalties: 1,
+                    drop: 2
+                }
+            }
+        ]
     },
     {
         year: 2002,
         teams: ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'],
-        matches: []
+        matches: [
+            {
+                date: '20020202',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 3,
+                    scoring: 'Pen: Hodge\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 29,
+                    scoring:
+                        'Tries: Robinson (2) TindallCohenCon: Wilkinson(2)HodgsonPen: Wilkinson\n',
+                    tries: 4,
+                    conversions: 3,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020203',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 54,
+                    scoring:
+                        "Tries: Murphy (2) O'ConnellHickieGleesonO'GaraCon: HumphreysO'Gara (2)Pen: Humphreys (6)\n",
+                    tries: 6,
+                    conversions: 3,
+                    penalties: 6,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 10,
+                    scoring: 'Try: S. Jones Con: S. JonesPen S. Jones\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020202',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 33,
+                    scoring: 'Tries: Traille BetsenCon: MerceronPen: Merceron (7)\n',
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 7,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 12,
+                    scoring: 'Pen: Dominguez (4)\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 4,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020216',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 33,
+                    scoring:
+                        'Tries: C. Quinnell K. MorganBudgettCon: S. Jones (3)Pen: S. Jones (4)\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 37,
+                    scoring:
+                        'Tries: Marsh (2) RougerieCon: Merceron (2)Pen: Merceron (4)TrailleDrop: Merceron\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 5,
+                    drop: 1
+                }
+            },
+            {
+                date: '20020216',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 45,
+                    scoring:
+                        'Tries: Greenwood (2) WilkinsonCohenWorsleyKayCon: Wilkinson (6)Pen: Wilkinson\n',
+                    tries: 6,
+                    conversions: 6,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'loss',
+                    score: 11,
+                    bonus_points: 0,
+                    scoring: "Tries: O'Gara Pen: Humphreys (2)\n",
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020216',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 12,
+                    scoring: 'Pen: Dominguez (4)\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 29,
+                    scoring: 'Tries: Townsend LaneyCon: Laney (2)Pen: Laney (5)\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 5,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020302',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 43,
+                    scoring:
+                        "Tries: O'Driscoll (3) HorganEasterbyCon: Humphreys (2)O'GaraPen: Humphreys (4)\n",
+                    tries: 5,
+                    conversions: 3,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 29,
+                    scoring: 'Try: Leslie Con: LaneyPen: Laney (5)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020302',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 44,
+                    scoring:
+                        'Tries: C. Morgan JamesR. WilliamsS. QuinnellMarinosCon: S. Jones (5)Pen: S. Jones (3)\n',
+                    tries: 5,
+                    conversions: 5,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 20,
+                    scoring: 'Tries: Checchinato MazzariolCon: PezPeensPen: PezPeens\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020302',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 20,
+                    scoring: 'Tries: Merceron HarinordoquyCon: Merceron (2)Pen: Merceron (2)\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 15,
+                    scoring: 'Tries: Robinson CohenCon: WilkinsonPen: Wilkinson\n',
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020323',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 10,
+                    scoring: 'Tries: Redpath Con: LaneyPen: Laney\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 22,
+                    scoring: 'Tries: Marsh (2) GalthiéCon: Merceron (2)Pen: Merceron\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020323',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 50,
+                    scoring:
+                        'Tries: Luger (2) GreenwoodWilkinsonStimpsonCon: Wilkinson (5)Pen: Wilkinson (4)Drop: Wilkinson\n',
+                    tries: 5,
+                    conversions: 5,
+                    penalties: 4,
+                    drop: 1
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 10,
+                    scoring: 'Tries: Harris Con: HarrisPen: Harris\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020323',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 32,
+                    scoring: "Tries: Kelly (2) HickieCon: O'GaraPen: Humphreys (4)O'Gara\n",
+                    tries: 3,
+                    conversions: 1,
+                    penalties: 5,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 17,
+                    scoring: 'Tries: Ma. Bergamasco de CarliCon: Dominguez (2)Pen: Peens\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020406',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 44,
+                    scoring:
+                        'Tries: Betsen (2) Brusque (2)RougerieCon: Merceron (2)Pen: Merceron (4)Gelez\n',
+                    tries: 5,
+                    conversions: 2,
+                    penalties: 5,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 5,
+                    scoring: 'Try: Wood\n',
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 0,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020406',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 22,
+                    scoring: 'Try: R. Williams Con: S. JonesPen: S. Jones (5)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 5,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 27,
+                    scoring: 'Tries: Bulloch (2) Con: LaneyPens: Laney (4)Hodge\n',
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 5,
+                    drop: 0
+                }
+            },
+            {
+                date: '20020407',
+                kick_off: 'undefined undefined undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 9,
+                    scoring: 'Pen: Dominguez (3)\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 45,
+                    scoring:
+                        'Tries: Greenwood (2) CohenRobinsonDallaglioHealeyCon: Wilkinson (5)DawsonPen: Wilkinson\n',
+                    tries: 6,
+                    conversions: 6,
+                    penalties: 1,
+                    drop: 0
+                }
+            }
+        ]
     },
     {
         year: 2001,
         teams: ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'],
-        matches: []
+        matches: [
+            {
+                date: '20010203',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 22,
+                    scoring: 'Try: Bergamasco ChecchinatoPilatCon: Pez (2/3)Pen: Pilat (1)\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 41,
+                    scoring: "Try: Henderson (3) HorganO'GaraCon: O'Gara (2/5)Pen: O'Gara (4)\n",
+                    tries: 5,
+                    conversions: 2,
+                    penalties: 4,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010203',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 15,
+                    scoring: 'Try: Howley QuinnellCon: Jenkins (1/2)Pen: Jenkins (1)\n',
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 44,
+                    scoring:
+                        'Try: Greenwood (3) Dawson (2)CohenCon: Wilkinson (4/6)Pen: Wilkinson (2)\n',
+                    tries: 6,
+                    conversions: 4,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010204',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 16,
+                    scoring: 'Try: Bernat-Salles Con: Lamaison (1/1)Pen: Lamaison (3)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 6,
+                    scoring: 'Pen: Logan (2) \n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010217',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 22,
+                    scoring: "Try: Brian O'DriscollCon:Ronan O'GaraPen:Ronan O'Gara (5)\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 5,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 15,
+                    scoring:
+                        'Tries: Philippe Bernat-Salles, Fabien PelousCon:Christophe LamaisonPen:Christophe Lamaison\n',
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010217',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 80,
+                    scoring:
+                        'Tries: Iain Balshaw (2), Ben Cohen, Lawrence Dallaglio, Will Greenwood, Austin Healey (2), Mark Regan, Jonny Wilkinson, Joe WorsleyCon: Jonny Wilkinson (9)Pen: Jonny Wilkinson (4)\n',
+                    tries: 10,
+                    conversions: 9,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 23,
+                    scoring:
+                        'Tries: Carlo Checchinato, Denis DallanCon: Andrea Scanavacca (2)Pen: Andrea Scanavacca (3)\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010217',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'draw',
+                    bonus_points: 0,
+                    score: 28,
+                    scoring:
+                        'Tries: James McLaren, Tom Smith, Chris PatersonCon:Kenny Logan, Duncan HodgePen:Kenny Logan (3)\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'draw',
+                    bonus_points: 0,
+                    score: 28,
+                    scoring:
+                        'Try: Mark TaylorCon:Neil JenkinsPen:Neil Jenkins (4)Drop Goals:Neil Jenkins (3)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 3
+                }
+            },
+            {
+                date: '20010303',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 19,
+                    scoring: 'Try: Massimo PerzianoCon:Diego DominguezPen:Diego Dominguez (4)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 30,
+                    scoring:
+                        'Tries: Philippe Bernat-Salles, Sebastien Bonetti, Jean-Luc SadournyCon:Christophe Lamaison (3)Pen:Christophe Lamaison (3)\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010303',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 43,
+                    scoring:
+                        'Tries: Iain Balshaw (2), Lawrence Dallaglio (2), Will Greenwood, Richard HillCon:Jonny Wilkinson (5)Pen:Jonny Wilkinson\n',
+                    tries: 6,
+                    conversions: 5,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 3,
+                    scoring: 'Pen: Duncan Hodge\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010317',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 35,
+                    scoring:
+                        'Tries: Philippe Bernat-Salles, Sebastien BonettiCon:Christophe Lamaison, Gerald MerceronPen:Gerald Merceron (4), Christophe Lamaison (3)\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 7,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 43,
+                    scoring:
+                        'Tries: Robert Howley, Neil Jenkins, Dafydd James, Scott QuinnellCon:Neil Jenkins (4)Pen:Neil Jenkins (3)Drop Goals:Neil Jenkins (2)\n',
+                    tries: 4,
+                    conversions: 4,
+                    penalties: 3,
+                    drop: 2
+                }
+            },
+            {
+                date: '20010317',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 23,
+                    scoring: 'Try: Tom SmithPen:Duncan Hodge (5)Drop Goals:Duncan Hodge\n',
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 5,
+                    drop: 1
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 19,
+                    scoring: 'Try: Mauro BergamascoCon:Diego DominguezPen:Diego Dominguez (4)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010407',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 48,
+                    scoring:
+                        'Tries: Iain Balshaw, Mike Catt, Phil Greening, Will Greenwood, Richard Hill, Matt Perry Cons: Jonny Wilkinson (6)Pens: Jonny Wilkinson (2)\n',
+                    tries: 6,
+                    conversions: 6,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 19,
+                    scoring:
+                        'Tries: Philippe Bernat-Salles Cons: Gerald MerceronPens: Gerald Merceron (3)Drops: Gerald Merceron\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 3,
+                    drop: 1
+                }
+            },
+            {
+                date: '20010408',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 23,
+                    scoring:
+                        'Try: Carlo ChecchinatoPen:Diego Dominguez (5)Drop Goal:Diego Dominguez\n',
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 5,
+                    drop: 1
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 33,
+                    scoring:
+                        'Tries: Gareth Cooper (2), Scott Gibbs Con:Neil Jenkins (3)Pen:Neil Jenkins (4)\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 4,
+                    drop: 0
+                }
+            },
+            {
+                date: '20010922',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 32,
+                    scoring:
+                        'Tries: Andrew Henderson, John Leslie, Budge Pountney, Tom SmithCon:Chris Paterson (2), Gregor TownsendPen:Chris Paterson (2)\n',
+                    tries: 4,
+                    conversions: 3,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 10,
+                    scoring: "Try: Girvan DempseyCon:David HumphreysPen:Ronan O'Gara\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20011013',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 6,
+                    scoring: 'Pens: Stephen Jones (2)\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 2,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 36,
+                    scoring:
+                        "Tries: Denis Hickie, Shane Horgan, Brian O'Driscoll Cons: David Humphreys (3)Pens: David Humphreys (5)\n",
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 5,
+                    drop: 0
+                }
+            },
+            {
+                date: '20011020',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 20,
+                    scoring: "Try: Keith WoodPen:David Humphreys (3), Ronan O'Gara (2)\n",
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 5,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 14,
+                    scoring: 'Try: Austin HealeyPen:Jonny Wilkinson (3)\n',
+                    tries: 1,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                }
+            }
+        ]
     },
     {
         year: 2000,
         teams: ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'],
-        matches: []
+        matches: [
+            {
+                date: '20000205',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 34,
+                    scoring: 'Try: De Carli Con: DominguezPen: Dominguez (6)Drop: Dominguez (3)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 6,
+                    drop: 3
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 20,
+                    scoring:
+                        'Try: Bulloch, M. Leslie Con: Logan, TownsendPen: TownsendDrop: Townsend\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 1
+                }
+            },
+            {
+                date: '20000205',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 50,
+                    scoring:
+                        'Try: Cohen (2), Tindall, Healey (2), Back Con: Wilkinson (4)Pen: Wilkinson (4)\n',
+                    tries: 6,
+                    conversions: 4,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 18,
+                    scoring: 'Try: Maggs, Galwey Con: HumphreysPen: Humphreys (2)\n',
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20000205',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 3,
+                    scoring: 'Pen: Jenkins \n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 1,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 36,
+                    scoring:
+                        'Try: Castaignède, Magne, Ntamack Con: Lamaison (3)Pen: Lamaison (4)Drop: Lamaison\n',
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 4,
+                    drop: 1
+                }
+            },
+            {
+                date: '20000219',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 9,
+                    scoring: 'Pen: Dourthe (3) \n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 15,
+                    scoring: 'Pen: Wilkinson (5) \n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 5,
+                    drop: 0
+                }
+            },
+            {
+                date: '20000219',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 47,
+                    scoring:
+                        'Try: S. Quinnell, S. Williams, Bateman, Howarth Con: Jenkins (3)Pen: Jenkins (7)\n',
+                    tries: 4,
+                    conversions: 3,
+                    penalties: 7,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 16,
+                    scoring: 'Try: Visser Con: DominguezPen: Dominguez (2)Drop: Dominguez\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 1
+                }
+            },
+            {
+                date: '20000219',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 44,
+                    scoring:
+                        "Try: O'Driscoll, Humphreys, Wood, Horgan, O'Kelly Con: O'Gara (2), Humphreys (3)Pen: O'Gara (2), Humphreys\n",
+                    tries: 5,
+                    conversions: 5,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 22,
+                    scoring: 'Try: Logan, Metcalfe, Graham Con: Logan (2)Pen: Logan\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 1,
+                    drop: 0
+                }
+            },
+            {
+                date: '20000304',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 16,
+                    scoring: 'Try: Nicol Con: PatersonPen: Logan, Paterson (2)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 28,
+                    scoring: 'Try: Magne (2), Castaignède Con: Merceron (2)Pen: Merceron (3)\n',
+                    tries: 3,
+                    conversions: 2,
+                    penalties: 3,
+                    drop: 0
+                }
+            },
+            {
+                date: '20000304',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 46,
+                    scoring:
+                        'Try: Cohen, Greening, Hill, Back, Dallaglio Con: Wilkinson (3)Pen: Wilkinson (5)\n',
+                    tries: 5,
+                    conversions: 3,
+                    penalties: 5,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 12,
+                    scoring: 'Pen: Jenkins (3) Drop: Jenkins\n',
+                    tries: 0,
+                    conversions: 0,
+                    penalties: 3,
+                    drop: 1
+                }
+            },
+            {
+                date: '20000304',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 60,
+                    scoring:
+                        "Try: Wood, Dawson, Dempsey, O'Driscoll, Horgan (2) Con: O'Gara (6)Pen: O'Gara (6)\n",
+                    tries: 6,
+                    conversions: 6,
+                    penalties: 6,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 13,
+                    scoring: 'Try: De Rossi Con: DominguezPen: Dominguez (2)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20000318',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 12,
+                    scoring: 'Try: Martin, Stoica Con: Dominguez\n',
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 0,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 59,
+                    scoring:
+                        'Try: Healey (3), Cohen (2), Dawson (2), Penalty try Con: Wilkinson (5)Pen: Wilkinson (2)Drop: Back\n',
+                    tries: 8,
+                    conversions: 5,
+                    penalties: 2,
+                    drop: 1
+                }
+            },
+            {
+                date: '20000318',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 26,
+                    scoring: 'Try: S. Williams (2) Con: S. Jones (2)Pen: S. Jones (4)\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'SCO',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 18,
+                    scoring: 'Try: Townsend, M. Leslie Con: HodgePen: Hodge (2)\n',
+                    tries: 2,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20000319',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 25,
+                    scoring: 'Try: Laussucq Con: MerceronPen: Merceron (6)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 6,
+                    drop: 0
+                },
+                away: {
+                    team: 'IRE',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 27,
+                    scoring: "Try: O'Driscoll (3) Con: O'Gara (3)Pen: Humphreys (2)\n",
+                    tries: 3,
+                    conversions: 3,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20000401',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'FRA',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 42,
+                    scoring:
+                        'Try: Penaud (2), Castaignède, Pelous, Benazzi Con: Dourthe (4)Pen: Dourthe (3)\n',
+                    tries: 5,
+                    conversions: 4,
+                    penalties: 3,
+                    drop: 0
+                },
+                away: {
+                    team: 'ITA',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 31,
+                    scoring:
+                        'Try: Martin, Troncon (2), Mazzucato Con: Dominguez (4)Drop: Dominguez\n',
+                    tries: 4,
+                    conversions: 4,
+                    penalties: 0,
+                    drop: 1
+                }
+            },
+            {
+                date: '20000401',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'IRE',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 19,
+                    scoring: "Try: Horgan Con: O'GaraPen: O'Gara (4)\n",
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'WAL',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 23,
+                    scoring: 'Try: S. Jones, Budgett Con: S. Jones (2)Pen: S. Jones, Jenkins (2)\n',
+                    tries: 2,
+                    conversions: 2,
+                    penalties: 2,
+                    drop: 0
+                }
+            },
+            {
+                date: '20000402',
+                kick_off: ' undefined undefined',
+                home: {
+                    team: 'SCO',
+                    result: 'win',
+                    bonus_points: 0,
+                    score: 19,
+                    scoring: 'Try: Hodge Con: HodgePen: Hodge (4)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 4,
+                    drop: 0
+                },
+                away: {
+                    team: 'ENG',
+                    result: 'loss',
+                    bonus_points: 0,
+                    score: 13,
+                    scoring: 'Try: Dallaglio Con: WilkinsonPen: Wilkinson (2)\n',
+                    tries: 1,
+                    conversions: 1,
+                    penalties: 2,
+                    drop: 0
+                }
+            }
+        ]
     }
 ];
 

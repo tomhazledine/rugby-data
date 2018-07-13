@@ -1,1 +1,399 @@
-[{"date":"20030215","kick_off":"13:30 GMT undefined","home":{"team":"ITA","result":"win","bonus_points":null,"score":30,"scoring":"Try: De Carli FestucciaPhillipsCon: Dominguez (3)Pen: Dominguez (2)Drop: Dominguez\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"WAL","result":"loss","bonus_points":null,"score":22,"scoring":"Try: Shanklin S. WilliamsPeelCon: Harris (2)Pen: Harris\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030215","kick_off":"16:00 GMT undefined","home":{"team":false,"result":"win","bonus_points":null,"score":25,"scoring":"Try: Robinson Con: WilkinsonPen: Wilkinson (5)Drop: Wilkinson\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"FRA","result":"loss","bonus_points":null,"score":17,"scoring":"Try: Magne PoitrenaudTrailleCon: Merceron\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030216","kick_off":"15:00 GMT undefined","home":{"team":"SCO","result":"loss","bonus_points":null,"score":6,"scoring":"Pen: Ross (2) \n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"IRE","result":"win","bonus_points":null,"score":36,"scoring":"Try: Hickie MurphyHumphreysCon: Humphreys (3)Pen: Humphreys (5)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030222","kick_off":"14:30 GMT undefined","home":{"team":"ITA","result":"loss","bonus_points":null,"score":13,"scoring":"Try: Dallan Con: PezPen: DominguezPez\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"IRE","result":"win","bonus_points":null,"score":37,"scoring":"Tries: Stringer O'DriscollKellyHumphreysMurphyCon: Humphreys (3)Pen: Humphreys (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030222","kick_off":"17:30 GMT undefined","home":{"team":"WAL","result":"loss","bonus_points":null,"score":9,"scoring":"Pen: Ceri Sweeney (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":false,"result":"win","bonus_points":null,"score":26,"scoring":"Tries: Greenwood WorsleyCon: Wilkinson (2)Pen: Wilkinson (2)Drop: Wilkinson (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030223","kick_off":"14:00 GMT undefined","home":{"team":"FRA","result":"win","bonus_points":null,"score":38,"scoring":"Tries: Pelous PoitrenaudTrailleRougerieCon: Gelez (3)Pen: Gelez (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"SCO","result":"loss","bonus_points":null,"score":3,"scoring":"Pen: Paterson\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030308","kick_off":"14:00 GMT undefined","home":{"team":"IRE","result":"win","bonus_points":null,"score":15,"scoring":"Pen: Humphreys (4) Drop: Murphy\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"FRA","result":"loss","bonus_points":null,"score":12,"scoring":"Pen: Gelez (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030308","kick_off":"16:00 GMT undefined","home":{"team":"SCO","result":"win","bonus_points":null,"score":30,"scoring":"Tries: Douglas TaylorPatersonCon: Paterson (3)Pen: Paterson (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"WAL","result":"loss","bonus_points":null,"score":22,"scoring":"Tries: Cooper TaylorR. WilliamsCon: S. Jones (2)Pen: S. Jones\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030309","kick_off":"14:00 GMT undefined","home":{"team":false,"result":"win","bonus_points":null,"score":40,"scoring":"Tries: Lewsey (2) ThompsonSimpson-DanielTindallLugerCon: Wilkinson (4)Dawson\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"ITA","result":"loss","bonus_points":null,"score":5,"scoring":"Try: Mi. Bergamasco\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030322","kick_off":"14:00 GMT undefined","home":{"team":"WAL","result":"loss","bonus_points":null,"score":24,"scoring":"Tries: S. Jones M. WilliamsThomasCon: S. Jones (3)Drop: S. Jones\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"IRE","result":"win","bonus_points":null,"score":25,"scoring":"Tries: Gleeson (2) Pen: Humphreys (4)Drop: O'Gara\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030322","kick_off":"16:00 GMT undefined","home":{"team":false,"result":"win","bonus_points":null,"score":40,"scoring":"Tries: Robinson (2) CohenLewseyCon: Wilkinson (3)Paul GraysonPen: Wilkinson (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"SCO","result":"loss","bonus_points":null,"score":9,"scoring":"Pen: Paterson (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030323","kick_off":"14:00 GMT undefined","home":{"team":"ITA","result":"loss","bonus_points":null,"score":27,"scoring":"Tries: Pez Mi. BergamascoPersicoPhillipsCon: Pez (2)Pen: Pez\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"FRA","result":"win","bonus_points":null,"score":53,"scoring":"Tries: Traille (2) Rougerie (2)BetsenMichalakCastaignèdeCon: Yachvili (6)Pen: Yachvili (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030329","kick_off":"13:00 GMT undefined","home":{"team":"FRA","result":"win","bonus_points":null,"score":33,"scoring":"Tries: Castaginède ClercMichalakCon: Yachvili (3)Pen: Yachvili (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"WAL","result":"loss","bonus_points":null,"score":5,"scoring":"Try: Thomas\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030329","kick_off":"15:00 GMT undefined","home":{"team":"SCO","result":"win","bonus_points":null,"score":33,"scoring":"Tries: White McLarenLoganPatersonCon: Paterson (2)Pen: Paterson (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"ITA","result":"loss","bonus_points":null,"score":25,"scoring":"Tries: Mi. Bergamasco PezPalmerCon: Pez (2)Pen: Pez (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20030330","kick_off":"14:00 GMT undefined","home":{"team":"IRE","result":"loss","bonus_points":null,"score":6,"scoring":"Pen: Humphreys Drop: Humphreys\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":false,"result":"win","bonus_points":null,"score":42,"scoring":"Tries: Greenwood (2) DallaglioTindallLugerCon: Wilkinson (3)GraysonPen: WilkinsonDrop: Wilkinson (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}}]
+[
+    {
+        "date": "20030215",
+        "kick_off": "13:30 GMT undefined",
+        "home": {
+            "team": "ITA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 30,
+            "scoring":
+                "Try: De Carli FestucciaPhillipsCon: Dominguez (3)Pen: Dominguez (2)Drop: Dominguez\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 2,
+            "drop": 1
+        },
+        "away": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 22,
+            "scoring": "Try: Shanklin S. WilliamsPeelCon: Harris (2)Pen: Harris\n",
+            "tries": 3,
+            "conversions": 2,
+            "penalties": 1,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030215",
+        "kick_off": "16:00 GMT undefined",
+        "home": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 25,
+            "scoring": "Try: Robinson Con: WilkinsonPen: Wilkinson (5)Drop: Wilkinson\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 5,
+            "drop": 1
+        },
+        "away": {
+            "team": "FRA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 17,
+            "scoring": "Try: Magne PoitrenaudTrailleCon: Merceron\n",
+            "tries": 3,
+            "conversions": 1,
+            "penalties": null,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030216",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 6,
+            "scoring": "Pen: Ross (2) \n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 2,
+            "drop": 0
+        },
+        "away": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 36,
+            "scoring": "Try: Hickie MurphyHumphreysCon: Humphreys (3)Pen: Humphreys (5)\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 5,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030222",
+        "kick_off": "14:30 GMT undefined",
+        "home": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 13,
+            "scoring": "Try: Dallan Con: PezPen: DominguezPez\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 0
+        },
+        "away": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 37,
+            "scoring":
+                "Tries: Stringer O'DriscollKellyHumphreysMurphyCon: Humphreys (3)Pen: Humphreys (2)\n",
+            "tries": 5,
+            "conversions": 3,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030222",
+        "kick_off": "17:30 GMT undefined",
+        "home": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 9,
+            "scoring": "Pen: Ceri Sweeney (3)\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 26,
+            "scoring":
+                "Tries: Greenwood WorsleyCon: Wilkinson (2)Pen: Wilkinson (2)Drop: Wilkinson (2)\n",
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 2,
+            "drop": 2
+        }
+    },
+    {
+        "date": "20030223",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 38,
+            "scoring": "Tries: Pelous PoitrenaudTrailleRougerieCon: Gelez (3)Pen: Gelez (4)\n",
+            "tries": 4,
+            "conversions": 3,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 3,
+            "scoring": "Pen: Paterson\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 1,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030308",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 15,
+            "scoring": "Pen: Humphreys (4) Drop: Murphy\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 4,
+            "drop": 1
+        },
+        "away": {
+            "team": "FRA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 12,
+            "scoring": "Pen: Gelez (4)\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 4,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030308",
+        "kick_off": "16:00 GMT undefined",
+        "home": {
+            "team": "SCO",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 30,
+            "scoring": "Tries: Douglas TaylorPatersonCon: Paterson (3)Pen: Paterson (3)\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 22,
+            "scoring": "Tries: Cooper TaylorR. WilliamsCon: S. Jones (2)Pen: S. Jones\n",
+            "tries": 3,
+            "conversions": 2,
+            "penalties": 1,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030309",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 40,
+            "scoring":
+                "Tries: Lewsey (2) ThompsonSimpson-DanielTindallLugerCon: Wilkinson (4)Dawson\n",
+            "tries": 6,
+            "conversions": 5,
+            "penalties": 0,
+            "drop": 0
+        },
+        "away": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 5,
+            "scoring": "Try: Mi. Bergamasco\n",
+            "tries": 1,
+            "conversions": 0,
+            "penalties": 0,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030322",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 24,
+            "scoring": "Tries: S. Jones M. WilliamsThomasCon: S. Jones (3)Drop: S. Jones\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 0,
+            "drop": 1
+        },
+        "away": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 25,
+            "scoring": "Tries: Gleeson (2) Pen: Humphreys (4)Drop: O'Gara\n",
+            "tries": 2,
+            "conversions": 0,
+            "penalties": 4,
+            "drop": 1
+        }
+    },
+    {
+        "date": "20030322",
+        "kick_off": "16:00 GMT undefined",
+        "home": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 40,
+            "scoring":
+                "Tries: Robinson (2) CohenLewseyCon: Wilkinson (3)Paul GraysonPen: Wilkinson (4)\n",
+            "tries": 4,
+            "conversions": 4,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 9,
+            "scoring": "Pen: Paterson (3)\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 3,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030323",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 27,
+            "scoring": "Tries: Pez Mi. BergamascoPersicoPhillipsCon: Pez (2)Pen: Pez\n",
+            "tries": 4,
+            "conversions": 2,
+            "penalties": 1,
+            "drop": 0
+        },
+        "away": {
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 53,
+            "scoring":
+                "Tries: Traille (2) Rougerie (2)BetsenMichalakCastaignèdeCon: Yachvili (6)Pen: Yachvili (2)\n",
+            "tries": 7,
+            "conversions": 6,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030329",
+        "kick_off": "13:00 GMT undefined",
+        "home": {
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 33,
+            "scoring": "Tries: Castaginède ClercMichalakCon: Yachvili (3)Pen: Yachvili (4)\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 5,
+            "scoring": "Try: Thomas\n",
+            "tries": 1,
+            "conversions": 0,
+            "penalties": 0,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030329",
+        "kick_off": "15:00 GMT undefined",
+        "home": {
+            "team": "SCO",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 33,
+            "scoring": "Tries: White McLarenLoganPatersonCon: Paterson (2)Pen: Paterson (3)\n",
+            "tries": 4,
+            "conversions": 2,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 25,
+            "scoring": "Tries: Mi. Bergamasco PezPalmerCon: Pez (2)Pen: Pez (2)\n",
+            "tries": 3,
+            "conversions": 2,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20030330",
+        "kick_off": "14:00 GMT undefined",
+        "home": {
+            "team": "IRE",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 6,
+            "scoring": "Pen: Humphreys Drop: Humphreys\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 1,
+            "drop": 1
+        },
+        "away": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 42,
+            "scoring":
+                "Tries: Greenwood (2) DallaglioTindallLugerCon: Wilkinson (3)GraysonPen: WilkinsonDrop: Wilkinson (2)\n",
+            "tries": 5,
+            "conversions": 4,
+            "penalties": 1,
+            "drop": 2
+        }
+    }
+]

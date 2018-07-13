@@ -1,1 +1,400 @@
-[{"date":"20000205","kick_off":" undefined undefined","home":{"team":"ITA","result":"win","bonus_points":null,"score":34,"scoring":"Try: De Carli Con: DominguezPen: Dominguez (6)Drop: Dominguez (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"SCO","result":"loss","bonus_points":null,"score":20,"scoring":"Try: Bulloch, M. Leslie Con: Logan, TownsendPen: TownsendDrop: Townsend\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000205","kick_off":" undefined undefined","home":{"team":false,"result":"win","bonus_points":null,"score":50,"scoring":"Try: Cohen (2), Tindall, Healey (2), Back Con: Wilkinson (4)Pen: Wilkinson (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"IRE","result":"loss","bonus_points":null,"score":18,"scoring":"Try: Maggs, Galwey Con: HumphreysPen: Humphreys (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000205","kick_off":" undefined undefined","home":{"team":"WAL","result":"loss","bonus_points":null,"score":3,"scoring":"Pen: Jenkins \n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"FRA","result":"win","bonus_points":null,"score":36,"scoring":"Try: Castaignède, Magne, Ntamack Con: Lamaison (3)Pen: Lamaison (4)Drop: Lamaison\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000219","kick_off":" undefined undefined","home":{"team":"FRA","result":"loss","bonus_points":null,"score":9,"scoring":"Pen: Dourthe (3) \n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":false,"result":"win","bonus_points":null,"score":15,"scoring":"Pen: Wilkinson (5) \n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000219","kick_off":" undefined undefined","home":{"team":"WAL","result":"win","bonus_points":null,"score":47,"scoring":"Try: S. Quinnell, S. Williams, Bateman, Howarth Con: Jenkins (3)Pen: Jenkins (7)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"ITA","result":"loss","bonus_points":null,"score":16,"scoring":"Try: Visser Con: DominguezPen: Dominguez (2)Drop: Dominguez\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000219","kick_off":" undefined undefined","home":{"team":"IRE","result":"win","bonus_points":null,"score":44,"scoring":"Try: O'Driscoll, Humphreys, Wood, Horgan, O'Kelly Con: O'Gara (2), Humphreys (3)Pen: O'Gara (2), Humphreys\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"SCO","result":"loss","bonus_points":null,"score":22,"scoring":"Try: Logan, Metcalfe, Graham Con: Logan (2)Pen: Logan\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000304","kick_off":" undefined undefined","home":{"team":"SCO","result":"loss","bonus_points":null,"score":16,"scoring":"Try: Nicol Con: PatersonPen: Logan, Paterson (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"FRA","result":"win","bonus_points":null,"score":28,"scoring":"Try: Magne (2), Castaignède Con: Merceron (2)Pen: Merceron (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000304","kick_off":" undefined undefined","home":{"team":false,"result":"win","bonus_points":null,"score":46,"scoring":"Try: Cohen, Greening, Hill, Back, Dallaglio Con: Wilkinson (3)Pen: Wilkinson (5)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"WAL","result":"loss","bonus_points":null,"score":12,"scoring":"Pen: Jenkins (3) Drop: Jenkins\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000304","kick_off":" undefined undefined","home":{"team":"IRE","result":"win","bonus_points":null,"score":60,"scoring":"Try: Wood, Dawson, Dempsey, O'Driscoll, Horgan (2) Con: O'Gara (6)Pen: O'Gara (6)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"ITA","result":"loss","bonus_points":null,"score":13,"scoring":"Try: De Rossi Con: DominguezPen: Dominguez (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000318","kick_off":" undefined undefined","home":{"team":"ITA","result":"loss","bonus_points":null,"score":12,"scoring":"Try: Martin, Stoica Con: Dominguez\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":false,"result":"win","bonus_points":null,"score":59,"scoring":"Try: Healey (3), Cohen (2), Dawson (2), Penalty try Con: Wilkinson (5)Pen: Wilkinson (2)Drop: Back\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000318","kick_off":" undefined undefined","home":{"team":"WAL","result":"win","bonus_points":null,"score":26,"scoring":"Try: S. Williams (2) Con: S. Jones (2)Pen: S. Jones (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"SCO","result":"loss","bonus_points":null,"score":18,"scoring":"Try: Townsend, M. Leslie Con: HodgePen: Hodge (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000319","kick_off":" undefined undefined","home":{"team":"FRA","result":"loss","bonus_points":null,"score":25,"scoring":"Try: Laussucq Con: MerceronPen: Merceron (6)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"IRE","result":"win","bonus_points":null,"score":27,"scoring":"Try: O'Driscoll (3) Con: O'Gara (3)Pen: Humphreys (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000401","kick_off":" undefined undefined","home":{"team":"FRA","result":"win","bonus_points":null,"score":42,"scoring":"Try: Penaud (2), Castaignède, Pelous, Benazzi Con: Dourthe (4)Pen: Dourthe (3)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"ITA","result":"loss","bonus_points":null,"score":31,"scoring":"Try: Martin, Troncon (2), Mazzucato Con: Dominguez (4)Drop: Dominguez\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000401","kick_off":" undefined undefined","home":{"team":"IRE","result":"loss","bonus_points":null,"score":19,"scoring":"Try: Horgan Con: O'GaraPen: O'Gara (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":"WAL","result":"win","bonus_points":null,"score":23,"scoring":"Try: S. Jones, Budgett Con: S. Jones (2)Pen: S. Jones, Jenkins (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}},{"date":"20000402","kick_off":" undefined undefined","home":{"team":"SCO","result":"win","bonus_points":null,"score":19,"scoring":"Try: Hodge Con: HodgePen: Hodge (4)\n","tries":null,"conversions":null,"penalties":null,"drop":null},"away":{"team":false,"result":"loss","bonus_points":null,"score":13,"scoring":"Try: Dallaglio Con: WilkinsonPen: Wilkinson (2)\n","tries":null,"conversions":null,"penalties":null,"drop":null}}]
+[
+    {
+        "date": "20000205",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ITA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 34,
+            "scoring": "Try: De Carli Con: DominguezPen: Dominguez (6)Drop: Dominguez (3)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 6,
+            "drop": 3
+        },
+        "away": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 20,
+            "scoring": "Try: Bulloch, M. Leslie Con: Logan, TownsendPen: TownsendDrop: Townsend\n",
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 1,
+            "drop": 1
+        }
+    },
+    {
+        "date": "20000205",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 50,
+            "scoring":
+                "Try: Cohen (2), Tindall, Healey (2), Back Con: Wilkinson (4)Pen: Wilkinson (4)\n",
+            "tries": 6,
+            "conversions": 4,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "IRE",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 18,
+            "scoring": "Try: Maggs, Galwey Con: HumphreysPen: Humphreys (2)\n",
+            "tries": 2,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20000205",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 3,
+            "scoring": "Pen: Jenkins \n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 1,
+            "drop": 0
+        },
+        "away": {
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 36,
+            "scoring":
+                "Try: Castaignède, Magne, Ntamack Con: Lamaison (3)Pen: Lamaison (4)Drop: Lamaison\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 4,
+            "drop": 1
+        }
+    },
+    {
+        "date": "20000219",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "FRA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 9,
+            "scoring": "Pen: Dourthe (3) \n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 15,
+            "scoring": "Pen: Wilkinson (5) \n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 5,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20000219",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "WAL",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 47,
+            "scoring":
+                "Try: S. Quinnell, S. Williams, Bateman, Howarth Con: Jenkins (3)Pen: Jenkins (7)\n",
+            "tries": 4,
+            "conversions": 3,
+            "penalties": 7,
+            "drop": 0
+        },
+        "away": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 16,
+            "scoring": "Try: Visser Con: DominguezPen: Dominguez (2)Drop: Dominguez\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 1
+        }
+    },
+    {
+        "date": "20000219",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 44,
+            "scoring":
+                "Try: O'Driscoll, Humphreys, Wood, Horgan, O'Kelly Con: O'Gara (2), Humphreys (3)Pen: O'Gara (2), Humphreys\n",
+            "tries": 5,
+            "conversions": 5,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 22,
+            "scoring": "Try: Logan, Metcalfe, Graham Con: Logan (2)Pen: Logan\n",
+            "tries": 3,
+            "conversions": 2,
+            "penalties": 1,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20000304",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 16,
+            "scoring": "Try: Nicol Con: PatersonPen: Logan, Paterson (2)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 28,
+            "scoring": "Try: Magne (2), Castaignède Con: Merceron (2)Pen: Merceron (3)\n",
+            "tries": 3,
+            "conversions": 2,
+            "penalties": 3,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20000304",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 46,
+            "scoring":
+                "Try: Cohen, Greening, Hill, Back, Dallaglio Con: Wilkinson (3)Pen: Wilkinson (5)\n",
+            "tries": 5,
+            "conversions": 3,
+            "penalties": 5,
+            "drop": 0
+        },
+        "away": {
+            "team": "WAL",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 12,
+            "scoring": "Pen: Jenkins (3) Drop: Jenkins\n",
+            "tries": 0,
+            "conversions": 0,
+            "penalties": 3,
+            "drop": 1
+        }
+    },
+    {
+        "date": "20000304",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 60,
+            "scoring":
+                "Try: Wood, Dawson, Dempsey, O'Driscoll, Horgan (2) Con: O'Gara (6)Pen: O'Gara (6)\n",
+            "tries": 6,
+            "conversions": 6,
+            "penalties": 6,
+            "drop": 0
+        },
+        "away": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 13,
+            "scoring": "Try: De Rossi Con: DominguezPen: Dominguez (2)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20000318",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 12,
+            "scoring": "Try: Martin, Stoica Con: Dominguez\n",
+            "tries": 2,
+            "conversions": 1,
+            "penalties": 0,
+            "drop": 0
+        },
+        "away": {
+            "team": "ENG",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 59,
+            "scoring":
+                "Try: Healey (3), Cohen (2), Dawson (2), Penalty try Con: Wilkinson (5)Pen: Wilkinson (2)Drop: Back\n",
+            "tries": 8,
+            "conversions": 5,
+            "penalties": 2,
+            "drop": 1
+        }
+    },
+    {
+        "date": "20000318",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "WAL",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 26,
+            "scoring": "Try: S. Williams (2) Con: S. Jones (2)Pen: S. Jones (4)\n",
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "SCO",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 18,
+            "scoring": "Try: Townsend, M. Leslie Con: HodgePen: Hodge (2)\n",
+            "tries": 2,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20000319",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "FRA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 25,
+            "scoring": "Try: Laussucq Con: MerceronPen: Merceron (6)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 6,
+            "drop": 0
+        },
+        "away": {
+            "team": "IRE",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 27,
+            "scoring": "Try: O'Driscoll (3) Con: O'Gara (3)Pen: Humphreys (2)\n",
+            "tries": 3,
+            "conversions": 3,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20000401",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "FRA",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 42,
+            "scoring":
+                "Try: Penaud (2), Castaignède, Pelous, Benazzi Con: Dourthe (4)Pen: Dourthe (3)\n",
+            "tries": 5,
+            "conversions": 4,
+            "penalties": 3,
+            "drop": 0
+        },
+        "away": {
+            "team": "ITA",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 31,
+            "scoring": "Try: Martin, Troncon (2), Mazzucato Con: Dominguez (4)Drop: Dominguez\n",
+            "tries": 4,
+            "conversions": 4,
+            "penalties": 0,
+            "drop": 1
+        }
+    },
+    {
+        "date": "20000401",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "IRE",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 19,
+            "scoring": "Try: Horgan Con: O'GaraPen: O'Gara (4)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "WAL",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 23,
+            "scoring": "Try: S. Jones, Budgett Con: S. Jones (2)Pen: S. Jones, Jenkins (2)\n",
+            "tries": 2,
+            "conversions": 2,
+            "penalties": 2,
+            "drop": 0
+        }
+    },
+    {
+        "date": "20000402",
+        "kick_off": " undefined undefined",
+        "home": {
+            "team": "SCO",
+            "result": "win",
+            "bonus_points": 0,
+            "score": 19,
+            "scoring": "Try: Hodge Con: HodgePen: Hodge (4)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 4,
+            "drop": 0
+        },
+        "away": {
+            "team": "ENG",
+            "result": "loss",
+            "bonus_points": 0,
+            "score": 13,
+            "scoring": "Try: Dallaglio Con: WilkinsonPen: Wilkinson (2)\n",
+            "tries": 1,
+            "conversions": 1,
+            "penalties": 2,
+            "drop": 0
+        }
+    }
+]
