@@ -1,5 +1,22 @@
 .button {
     @extend %buttonReset;
-    &:hover {
+    font-family: $text;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+    padding: 0.2rem 0.5rem;
+    text-transform: uppercase;
+    border: 0.1rem solid $black;
+    margin-left: 0.5rem;
+    &.active {
+        background: $black;
+        color: $white;
     }
+    &:focus {
+        outline: none;
+        // color: $lime;
+    }
+    // &:hover {
+    //     color: $lime;
+    // }
 }
