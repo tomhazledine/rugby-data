@@ -29,7 +29,7 @@ class Main extends React.Component {
     componentWillMount() {
         // const targetYears = sixNationsData.slice(0, 2);
 
-        const years = sixNationsData.map((year, key) => {
+        const years = sixNationsData.map(year => {
             let oldPoints = parseInt(year.year) < 2017 ? true : false;
             let stats = teamStats(year.teams, year.matches, oldPoints);
             let results = sortResults(stats);
