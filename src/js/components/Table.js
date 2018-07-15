@@ -2,7 +2,15 @@ import React from 'react';
 
 import { getColumnsMinMax, getMappedValue, decile } from '../tools/dataWranglers';
 
-const Table = ({ columns, data }) => {
+const Table = ({ columns, data, setFocus, focused }) => {
+    const toggleFocus = team => {
+        if (focused === team) {
+            setFocus(false);
+        } else {
+            setFocus(team);
+        }
+    };
+
     let columnsMinMax = getColumnsMinMax(columns, data);
 
     let headers = (
@@ -26,8 +34,11 @@ const Table = ({ columns, data }) => {
         </tr>
     );
     let rows = data.map((item, i) => {
+        // console.log(`focused ${focused}`);
+        let focusedClass = focused === item.team ? 'row--focused' : 'row';
+
         return (
-            <tr key={i} className="">
+            <tr key={i} className={focusedClass} onClick={() => toggleFocus(item.team)}>
                 {columns.map((col, j) => {
                     let data = col.slug === 'key' ? i + 1 : item[col.slug].toString();
                     if (col.filter) {

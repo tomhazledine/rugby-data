@@ -8,6 +8,7 @@ class GraphDifferenceBar extends React.Component {
 
         this.sortByValue = this.sortByValue.bind(this);
         this.defaultSort = this.defaultSort.bind(this);
+        this.toggleFocus = this.toggleFocus.bind(this);
 
         this.state = {
             sort: false
@@ -19,6 +20,13 @@ class GraphDifferenceBar extends React.Component {
     }
     defaultSort() {
         this.setState({ sort: false });
+    }
+    toggleFocus(team) {
+        if (this.props.focused === team) {
+            this.props.setFocus(false);
+        } else {
+            this.props.setFocus(team);
+        }
     }
 
     render() {
@@ -59,11 +67,15 @@ class GraphDifferenceBar extends React.Component {
                 ? zeroPercentage - widthPercentage
                 : zeroPercentage;
 
+            let focusedClass =
+                this.props.focused === row.team ? 'graph__row--focused' : 'graph__row';
+
             return (
                 <div
-                    className={`graph__row graph__row--${negativeClass}`}
+                    className={`graph__row graph__row--${negativeClass} ${focusedClass}`}
                     key={key}
                     title={`${row.team}: ${row[this.props.value]}`}
+                    onClick={() => this.toggleFocus(row.team)}
                 >
                     <span className="graph__row-display-wrapper">
                         <span className="graph__row-title">

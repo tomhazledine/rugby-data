@@ -12,16 +12,32 @@
 .graph__row {
     display: flex;
     position: relative;
+    cursor: pointer;
 }
 .graph__row-title {
     display: block;
     width: 2.5em;
     // text-align: right;
     // font-weight: 700;
+    height: 1em;
+    line-height: 1;
     margin-right: 0.5rem;
     position: absolute;
-    top: 0;
+    // top: 0;
     left: -2.5em;
+}
+.graph__row:hover {
+    background: $blue--paler;
+    .graph__row-title {
+        background: $blue--paler;
+    }
+}
+
+.graph__row--focused {
+    background: $blue--pale;
+    .graph__row-title {
+        background: $blue--pale;
+    }
 }
 .graph__row-title--main {
     font-weight: 700;

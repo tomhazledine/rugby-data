@@ -8,6 +8,7 @@ class GraphHorizontalBar extends React.Component {
 
         this.sortByValue = this.sortByValue.bind(this);
         this.defaultSort = this.defaultSort.bind(this);
+        this.toggleFocus = this.toggleFocus.bind(this);
 
         this.state = {
             sort: false
@@ -19,6 +20,14 @@ class GraphHorizontalBar extends React.Component {
     }
     defaultSort() {
         this.setState({ sort: false });
+    }
+
+    toggleFocus(team) {
+        if (this.props.focused === team) {
+            this.props.setFocus(false);
+        } else {
+            this.props.setFocus(team);
+        }
     }
 
     render() {
@@ -47,8 +56,10 @@ class GraphHorizontalBar extends React.Component {
 
         const rows = data.map((row, key) => {
             const widthPercentage = remapDomain(row[this.props.value], 0, maxValue, 0, 100);
+            let focusedClass =
+                this.props.focused === row.team ? 'graph__row--focused' : 'graph__row';
             return (
-                <div className="graph__row" key={key}>
+                <div className={focusedClass} key={key} onClick={() => this.toggleFocus(row.team)}>
                     <span className="graph__row-title">
                         <span className="graph__row-title--main">{row.team}</span>
                         {/*<span className="graph__row-title--extra">{row.position}</span>*/}
