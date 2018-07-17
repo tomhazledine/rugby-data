@@ -27,6 +27,8 @@ class YearsOverview extends React.Component {
     }
 
     render() {
+        console.log('years:', this.props.years);
+
         const years = this.props.years.map((year, key) => {
             return (
                 <div key={key} className="year">

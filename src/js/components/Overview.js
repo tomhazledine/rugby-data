@@ -1,6 +1,7 @@
 import React from 'react';
 
-import teamStats, { sortResults } from '../tools/dataWranglers';
+import sixNationsData from '../data/sixnations';
+import teamStats, { sortResults, getTeamDataFromMatch } from '../tools/dataWranglers';
 
 class Overview extends React.Component {
     constructor() {
@@ -63,8 +64,71 @@ class Overview extends React.Component {
         );
     }
 
+    getOpponents(teams, team) {
+        return teams.filter(opponent => opponent !== team);
+    }
+
+    createOppositionObject(opponents) {
+        return opponents.reduce((acc, opponent) => {
+            acc[opponent] = 0;
+            return acc;
+        }, {});
+    }
+
+    getCumulativeScores(data) {
+        const teams = ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'];
+
+        let yearlyResults = data.map(year => {
+            let yearResults = year.teams.map(team => {
+                let teamMatches = year.matches.filter(
+                    match => match.away.team === team || match.home.team === team
+                );
+
+                let opponents = this.getOpponents(year.teams, team);
+                let opposition = this.createOppositionObject(opponents);
+
+                let results = teamMatches.reduce(
+                    (acc, match) => {
+                        let teamMatchData = getTeamDataFromMatch(team, match);
+                        let opponentMatchData = getTeamDataFromMatch(team, match, true);
+                        acc.score += teamMatchData.score;
+                        acc.opposition[opponentMatchData.team] += opponentMatchData.score;
+                        return acc;
+                    },
+                    { score: 0, opposition, opponents, team }
+                );
+                return results;
+            });
+
+            return yearResults;
+        });
+
+        let cululativeResults = teams.map(team => {
+            let opponents = this.getOpponents(teams, team);
+            let opposition = this.createOppositionObject(opponents);
+            let teamResults = yearlyResults.reduce(
+                (acc, year) => {
+                    let teamYear = year.find(item => item.team === team);
+
+                    let results = opponents.map(opponent => {
+                        acc.opposition[opponent] =
+                            acc.opposition[opponent] + teamYear.opposition[opponent];
+                    });
+
+                    acc.score += teamYear.score;
+                    return acc;
+                },
+                { score: 0, team, opponents, opposition }
+            );
+            return teamResults;
+        });
+
+        return cululativeResults;
+    }
+
     render() {
-        // console.log(this.props.years);
+        const cumulativeScores = this.getCumulativeScores(sixNationsData);
+        console.log(cumulativeScores);
 
         const totals = [
             this.constGetTotalTeamStats('ENG', this.props.years),
@@ -77,8 +141,8 @@ class Overview extends React.Component {
 
         const avarages = this.getMeans(totals);
 
-        console.log(totals);
-        console.log(avarages);
+        // console.log(totals);
+        // console.log(avarages);
 
         // console.log(years);
 

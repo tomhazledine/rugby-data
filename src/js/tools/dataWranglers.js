@@ -22,7 +22,7 @@ const matchWinner = match => {
     return 'draw';
 };
 
-const getTeamDataFromMatch = (team, match, opponent = false) => {
+export const getTeamDataFromMatch = (team, match, opponent = false) => {
     if (match.home.team === team) {
         return opponent ? match.away : match.home;
     }
