@@ -2,6 +2,8 @@ import React from 'react';
 
 import sixNationsData from '../data/sixnations';
 import teamStats, { sortResults, getTeamDataFromMatch } from '../tools/dataWranglers';
+import { sortByAlternateKey } from '../tools/helpers-data';
+import AveragesTable from './AveragesTable';
 
 class Overview extends React.Component {
     constructor() {
@@ -55,7 +57,7 @@ class Overview extends React.Component {
                     key === 'penalties' ||
                     key === 'drops'
                 ) {
-                    acc[key] = Math.round(team[key] / team.matches);
+                    acc[key] = (team[key] / team.matches).toFixed(2);
                 } else {
                     acc[key] = team[key];
                 }
@@ -139,16 +141,18 @@ class Overview extends React.Component {
             this.constGetTotalTeamStats('WAL', this.props.years)
         ];
 
-        const avarages = this.getMeans(totals);
+        let averages = this.getMeans(totals);
+        averages = sortByAlternateKey(averages, 'score');
 
-        // console.log(totals);
-        // console.log(avarages);
+        console.log(totals);
+        // console.log(averages);
 
         // console.log(years);
 
         return (
             <div>
                 <h1>Overview</h1>
+                <AveragesTable data={averages} setFocus={() => {}} focused={false} />
             </div>
         );
     }
