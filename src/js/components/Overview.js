@@ -2,7 +2,7 @@ import React from 'react';
 
 import sixNationsData from '../data/sixnations';
 import teamStats, { sortResults, getTeamDataFromMatch } from '../tools/dataWranglers';
-import { sortByAlternateKey } from '../tools/helpers-data';
+import { sortByAlternateKey, mode, median, mean } from '../tools/helpers-data';
 import AveragesTable from './AveragesTable';
 
 class Overview extends React.Component {
@@ -130,7 +130,7 @@ class Overview extends React.Component {
 
     render() {
         const cumulativeScores = this.getCumulativeScores(sixNationsData);
-        console.log(cumulativeScores);
+        // console.log(cumulativeScores);
 
         const totals = [
             this.constGetTotalTeamStats('ENG', this.props.years),
@@ -144,7 +144,16 @@ class Overview extends React.Component {
         let averages = this.getMeans(totals);
         averages = sortByAlternateKey(averages, 'score');
 
-        console.log(totals);
+        let numbers = [13, 25, 34, 34, 41, 41, 32, 13];
+
+        let result_mode = mode(numbers);
+        let result_median = median(numbers);
+        let result_mean = mean(numbers);
+
+        console.log('numbers', numbers);
+        console.log('result_mode', result_mode);
+        console.log('result_median', result_median);
+        console.log('result_mean', result_mean);
         // console.log(averages);
 
         // console.log(years);
