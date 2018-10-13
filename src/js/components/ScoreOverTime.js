@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import * as d3 from 'd3';
+import React, { Component } from "react";
+import * as d3 from "d3";
 
 const layout = {
     width: 400,
@@ -15,14 +15,14 @@ class ScoreOverTime extends Component {
         this.yScale = d3.scaleLinear().range([layout.height, 0]);
         // this.yScale = d3.scaleBand().range(teams);
         this.lineGenerator = d3.line();
-        this.teams = ['ENG', 'FRA', 'IRE', 'ITA', 'SCO', 'WAL'];
+        this.teams = ["ENG", "FRA", "IRE", "ITA", "SCO", "WAL"];
         this.teamColours = {
-            ENG: '#ff4136',
-            FRA: '#0074d9',
-            IRE: '#2ecc40',
-            ITA: '#7fdbff',
-            SCO: '#001f3f',
-            WAL: '#ff4136'
+            ENG: "#ff4136",
+            FRA: "#0074d9",
+            IRE: "#2ecc40",
+            ITA: "#7fdbff",
+            SCO: "#001f3f",
+            WAL: "#ff4136"
         };
     }
 
@@ -31,7 +31,9 @@ class ScoreOverTime extends Component {
 
         const timeDomain = d3.extent(data, d => parseInt(d.year));
 
-        const scoreMaxes = this.teams.map(team => d3.max(data, d => parseInt(d[team])));
+        const scoreMaxes = this.teams.map(team =>
+            d3.max(data, d => parseInt(d[team]))
+        );
         const scoreMax = d3.max(scoreMaxes);
 
         this.xScale.domain(timeDomain);
@@ -42,7 +44,14 @@ class ScoreOverTime extends Component {
             this.lineGenerator.y(d => this.yScale(d[team]));
             let line = this.lineGenerator(data);
 
-            return <path key={key} d={line} fill="none" stroke={this.teamColours[team]} />;
+            return (
+                <path
+                    key={key}
+                    d={line}
+                    fill="none"
+                    stroke={this.teamColours[team]}
+                />
+            );
         });
 
         return (
