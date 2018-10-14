@@ -68,18 +68,28 @@ const CandlestickGraph = ({ dimensions, children }) => {
     );
 };
 
+const overview = (matches, title) => (
+    <div key={title}>
+        <h2>{title}</h2>
+        <ul>
+            <li>{matches.total} total matches</li>
+            <li>{matches.wins} wins</li>
+            <li>{matches.draws} draws</li>
+            <li>{matches.losses} losses</li>
+            <li>{matches.winpercentage}% win percentage</li>
+            <li>{matches.diffs.win.median} median win point-difference</li>
+        </ul>
+        {resultSpreads(matches)}
+        <hr />
+    </div>
+);
+
 ReactDOM.render(
     <div>
         <h1>England results</h1>
-        <p>Total matches: {engFingerprint.all.total}</p>
-        <ul>
-            <li>{engFingerprint.all.wins} wins</li>
-            <li>{engFingerprint.all.draws} draws</li>
-            <li>{engFingerprint.all.losses} losses</li>
-        </ul>
-        <p>win percentage = {engFingerprint.all.winpercentage}%</p>
-        <p>Median win point-difference {engFingerprint.all.diffs.win.median}</p>
-        {resultSpreads(engFingerprint.all)}
+        {overview(engFingerprint.all, "all matches")}
+        {overview(engFingerprint.home, "home matches")}
+        {overview(engFingerprint.away, "away matches")}
     </div>,
     document.getElementById("root")
 );

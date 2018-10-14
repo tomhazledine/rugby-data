@@ -7,6 +7,8 @@ const Candlestick = ({ domain, data, dimensions, position }) => {
     const _domain = d3.extent(domain);
     xScale.domain(_domain);
 
+    // console.log(data);
+
     return (
         // <svg
         //     className="candlesick__wrapper"

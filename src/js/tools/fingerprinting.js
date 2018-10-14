@@ -32,8 +32,8 @@ export const getMatchStats = matches => {
         losses: losses.length,
         winpercentage: winPercentage(matches.length, wins.length),
         diffs: {
-            loss: averages.spread(lossDiffs),
-            win: averages.spread(winDiffs)
+            win: averages.spread(winDiffs),
+            loss: averages.spread(lossDiffs)
         }
     };
 };
