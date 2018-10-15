@@ -18,11 +18,13 @@ export const getMatchStats = matches => {
     const draws = filterByResultType(matches, "draw");
     const losses = filterByResultType(matches, "loss");
 
-    const winDiffs = wins.map(match =>
-        Math.abs(match.home.score - match.away.score)
+    const winDiffs = wins.map(
+        match => Math.abs(match.home.score - match.away.score)
+        // match.home.score - match.away.score
     );
-    const lossDiffs = losses.map(match =>
-        Math.abs(match.home.score - match.away.score)
+    const lossDiffs = losses.map(
+        match => Math.abs(match.home.score - match.away.score)
+        // match.home.score - match.away.score
     );
 
     return {
