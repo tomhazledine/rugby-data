@@ -26,7 +26,11 @@ const overview = (matches, title) => (
             <li>{matches.winpercentage}% win percentage</li>
             <li>{matches.diffs.win.median} median win point-difference</li>
         </ul>
-        <CandlestickGraph results={matches} />
+        <CandlestickGraph
+            data={[matches.diffs.win, matches.diffs.loss]}
+            dimensions={{ width: 400, height: 16, padding: [10, 10, 10, 10] }}
+            domain={[-40, 60]}
+        />
         <hr />
     </div>
 );
@@ -34,6 +38,18 @@ const overview = (matches, title) => (
 ReactDOM.render(
     <div>
         <h1>England results</h1>
+        <CandlestickGraph
+            data={[
+                engFingerprint.all.diffs.win,
+                engFingerprint.all.diffs.loss,
+                engFingerprint.home.diffs.win,
+                engFingerprint.home.diffs.loss,
+                engFingerprint.away.diffs.win,
+                engFingerprint.away.diffs.loss
+            ]}
+            dimensions={{ width: 800, height: 16, padding: [10, 10, 10, 10] }}
+            domain={[-40, 60]}
+        />
         {overview(engFingerprint.all, "all matches")}
         {overview(engFingerprint.home, "home matches")}
         {overview(engFingerprint.away, "away matches")}

@@ -6,14 +6,9 @@ import Candlestick from "./Candlestick";
 class CandlestickGraph extends React.Component {
     constructor() {
         super();
-        this.rowDimensions = {
-            width: 400,
-            height: 16,
-            padding: [0, 10, 10, 10]
-        };
         this.xScale = d3
             .scaleLinear()
-            .range([0, this.rowDimensions.width])
+            .range([0, 400])
             .domain(d3.extent([-100, 100]));
         this.xAxis = d3
             .axisBottom()
@@ -21,69 +16,79 @@ class CandlestickGraph extends React.Component {
             .ticks(4);
     }
 
+    componentWillMount() {
+        this.xScale
+            .range([0, this.props.dimensions.width])
+            .domain(d3.extent(this.props.domain));
+    }
+
     componentDidMount() {
         d3.select(this.refs.xAxis).call(this.xAxis);
     }
 
     render() {
+        console.log(this.props.data);
+
+        const candlesticks = this.props.data.map((item, key) => (
+            <Candlestick
+                key={`candlestick_${key}`}
+                data={item}
+                scale={this.xScale}
+                dimensions={{
+                    x: 0,
+                    y: key * this.props.dimensions.height,
+                    width: this.props.dimensions.width,
+                    height: this.props.dimensions.height
+                }}
+            />
+        ));
         return (
             <div key={this.props.results}>
                 <svg
                     className="candlesick__wrapper"
                     width={
-                        this.rowDimensions.width +
-                        this.rowDimensions.padding[3] +
-                        this.rowDimensions.padding[1]
+                        this.props.dimensions.width +
+                        this.props.dimensions.padding[3] +
+                        this.props.dimensions.padding[1]
                     }
                     height={
-                        3 * this.rowDimensions.height +
-                        this.rowDimensions.padding[0] +
-                        this.rowDimensions.padding[2]
+                        (1 + this.props.data.length) *
+                            this.props.dimensions.height +
+                        this.props.dimensions.padding[0] +
+                        this.props.dimensions.padding[2]
                     }
                     style={{ display: "block" }}
                 >
-                    <line
-                        className="candlestick__zero"
-                        y1={0}
-                        x1={scale(0)}
-                        y2={dimensions.height}
-                        x2={scale(0)}
-                        stroke={"black"}
-                        strokeWidth="1px"
-                        strokeLinecap="butt"
-                        strokeDasharray="2 1"
-                    />
-                    <Candlestick
-                        scale={this.xScale}
-                        dimensions={{
-                            x: this.rowDimensions.padding[3],
-                            y: this.rowDimensions.padding[0],
-                            width: this.rowDimensions.width,
-                            height: this.rowDimensions.height
-                        }}
-                        data={this.props.results.diffs.win}
-                    />
-                    <Candlestick
-                        scale={this.xScale}
-                        dimensions={{
-                            x: this.rowDimensions.padding[3],
-                            y:
-                                this.rowDimensions.padding[0] +
-                                this.rowDimensions.height,
-                            width: this.rowDimensions.width,
-                            height: this.rowDimensions.height
-                        }}
-                        data={this.props.results.diffs.loss}
-                        negative={true}
-                    />
+                    <g
+                        transform={`translate(${
+                            this.props.dimensions.padding[3]
+                        },${this.props.dimensions.padding[0]})`}
+                    >
+                        <line
+                            className="candlestick__zero"
+                            y1={0}
+                            x1={this.xScale(0)}
+                            y2={
+                                this.props.data.length *
+                                this.props.dimensions.height
+                            }
+                            x2={this.xScale(0)}
+                            stroke={"black"}
+                            strokeWidth="1px"
+                            strokeLinecap="butt"
+                            strokeDasharray="2 1"
+                        />
+                        {candlesticks}
+                    </g>
                     <g>
                         <g
                             ref="xAxis"
                             className="axis axis--x frequecy__axis frequecy__axis--x"
                             transform={`translate(${
-                                this.rowDimensions.padding[3]
-                            },${2 * this.rowDimensions.height +
-                                this.rowDimensions.padding[0]})`}
+                                this.props.dimensions.padding[3]
+                            },${this.props.data.length *
+                                this.props.dimensions.height +
+                                this.props.dimensions.padding[0]})`}
                         />
                     </g>
                 </svg>
