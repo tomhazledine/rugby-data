@@ -1,16 +1,16 @@
-const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
+const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const SpriteLoaderPlugin = require("svg-sprite-loader/plugin");
 
 module.exports = {
-    entry: './src/js/main.js',
+    entry: "./src/js/main.js",
     output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: 'app.js'
+        path: path.resolve(__dirname, "build"),
+        filename: "app.js"
     },
-    devtool: 'source-map',
+    devtool: "source-map",
     optimization: {
         minimizer: [
             new UglifyJsPlugin({
@@ -25,9 +25,16 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                loader: 'babel-loader',
+                loader: "babel-loader",
                 query: {
-                    presets: ['react']
+                    presets: ["react", "env"],
+                    plugins: [
+                        process.env.NODE_ENV !== "production"
+                            ? ["emotion", { hoist: true }]
+                            : ["emotion", { sourceMap: true, autoLabel: true }],
+                        "transform-class-properties",
+                        "transform-object-rest-spread"
+                    ]
                 }
             },
             {
@@ -39,20 +46,20 @@ module.exports = {
                     //     : MiniCssExtractPlugin.loader,
                     MiniCssExtractPlugin.loader,
                     {
-                        loader: 'css-loader', // translates CSS into CommonJS
+                        loader: "css-loader", // translates CSS into CommonJS
                         options: {
                             sourceMap: true
                         }
                     },
                     {
-                        loader: 'postcss-loader',
+                        loader: "postcss-loader",
                         options: {
                             sourceMap: true
                         }
                     },
                     // 'resolve-url-loader',
                     {
-                        loader: 'sass-loader', // compiles Sass to CSS
+                        loader: "sass-loader", // compiles Sass to CSS
                         options: {
                             sourceMap: true
                         }
@@ -61,30 +68,30 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|gif)$/,
-                use: ['file-loader']
+                use: ["file-loader"]
             },
             {
                 test: /\.svg$/,
                 use: [
                     {
-                        loader: 'svg-sprite-loader',
+                        loader: "svg-sprite-loader",
                         options: {
                             extract: true,
-                            spriteFilename: 'icons/iconsprite.svg.php',
-                            path: path.resolve(__dirname, 'assets')
+                            spriteFilename: "icons/iconsprite.svg.php",
+                            path: path.resolve(__dirname, "assets")
                         }
                     },
-                    'svgo-loader'
+                    "svgo-loader"
                 ]
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
                 use: [
                     {
-                        loader: 'file-loader',
+                        loader: "file-loader",
                         options: {
                             // path: path.resolve(__dirname, 'assets/css'),
-                            name: 'fonts/[name].[ext]'
+                            name: "fonts/[name].[ext]"
                         }
                     }
                 ]
@@ -95,9 +102,9 @@ module.exports = {
         new MiniCssExtractPlugin({
             // Options similar to the same options in webpackOptions.output
             // both options are optional
-            path: path.resolve(__dirname, 'build/css'),
-            filename: 'app.css',
-            chunkFilename: '[id].css'
+            path: path.resolve(__dirname, "build/css"),
+            filename: "app.css",
+            chunkFilename: "[id].css"
         }),
         new SpriteLoaderPlugin()
     ]

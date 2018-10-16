@@ -42,6 +42,17 @@ class CandlestickGraph extends React.Component {
                     }
                     style={{ display: "block" }}
                 >
+                    <line
+                        className="candlestick__zero"
+                        y1={0}
+                        x1={scale(0)}
+                        y2={dimensions.height}
+                        x2={scale(0)}
+                        stroke={"black"}
+                        strokeWidth="1px"
+                        strokeLinecap="butt"
+                        strokeDasharray="2 1"
+                    />
                     <Candlestick
                         scale={this.xScale}
                         dimensions={{
