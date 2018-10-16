@@ -36,6 +36,8 @@ export const sortNumbers = numbers =>
         })
     );
 
+export const invert = numbers => numbers.map(number => -Math.abs(number));
+
 export const quartile = (numbers, percent) => {
     const sorted = sortNumbers(numbers);
     const position = (sorted.length - 1) * percent;

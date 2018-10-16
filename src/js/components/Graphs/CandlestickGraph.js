@@ -63,6 +63,7 @@ class CandlestickGraph extends React.Component {
                             height: this.rowDimensions.height
                         }}
                         data={this.props.results.diffs.loss}
+                        negative={true}
                     />
                     <g>
                         <g
