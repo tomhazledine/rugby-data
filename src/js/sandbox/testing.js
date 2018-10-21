@@ -24,10 +24,11 @@ const overview = (matches, title) => (
             <li>{matches.draws} draws</li>
             <li>{matches.losses} losses</li>
             <li>{matches.winpercentage}% win percentage</li>
-            <li>{matches.diffs.win.median} median win point-difference</li>
+            <li>{matches.diffs.win_median_pd} median win point-difference</li>
+            <li>{matches.diffs.loss_median_pd} median loss point-difference</li>
         </ul>
         <CandlestickGraph
-            data={[matches.diffs.win, matches.diffs.loss]}
+            data={[{ data: matches.diffs.win }, { data: matches.diffs.loss }]}
             dimensions={{ width: 400, height: 16, padding: [10, 10, 10, 10] }}
             domain={[-40, 60]}
         />
@@ -38,18 +39,18 @@ const overview = (matches, title) => (
 ReactDOM.render(
     <div>
         <h1>England results</h1>
-        <CandlestickGraph
+        {/* <CandlestickGraph
             data={[
-                engFingerprint.all.diffs.win,
-                engFingerprint.all.diffs.loss,
-                engFingerprint.home.diffs.win,
-                engFingerprint.home.diffs.loss,
-                engFingerprint.away.diffs.win,
-                engFingerprint.away.diffs.loss
+                { data: engFingerprint.all.diffs.win },
+                { data: engFingerprint.all.diffs.loss },
+                { data: engFingerprint.home.diffs.win },
+                { data: engFingerprint.home.diffs.loss },
+                { data: engFingerprint.away.diffs.win },
+                { data: engFingerprint.away.diffs.loss }
             ]}
-            dimensions={{ width: 800, height: 16, padding: [10, 10, 10, 10] }}
+            dimensions={{ width: 400, height: 16, padding: [10, 10, 10, 10] }}
             domain={[-40, 60]}
-        />
+        /> */}
         {overview(engFingerprint.all, "all matches")}
         {overview(engFingerprint.home, "home matches")}
         {overview(engFingerprint.away, "away matches")}
