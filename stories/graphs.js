@@ -4,6 +4,7 @@ import * as d3 from "d3";
 
 import Candlestick from "../src/js/components/Graphs/Candlestick";
 import CandlestickGraph from "../src/js/components/Graphs/CandlestickGraph";
+import Wrapper from "../src/js/components/generic/Wrapper";
 
 const mockData = (max = 100, offset = 0, length = 20) =>
     Array.from(
@@ -53,23 +54,49 @@ storiesOf("Candlestick", module)
         </svg>
     ))
     .add("full graph", () => (
-        <CandlestickGraph
-            dimensions={{
-                width: 400,
-                height: 16,
-                padding: [10, 10, 10, 10]
-            }}
-            data={[
-                mockData(100, 0),
-                mockData(10, 0),
-                mockData(70, 0),
-                mockData(100, 0, 10),
-                mockData(100, -100),
-                mockData(70, -70),
-                mockData(100, -100),
-                mockData(10, -10, 5),
-                [10, 25, 50, 52, 80]
-            ]}
-            domain={[-100, 100]}
-        />
+        <Wrapper>
+            <h2>Graph</h2>
+            <CandlestickGraph
+                dimensions={{
+                    width: 400,
+                    height: 16,
+                    padding: [10, 10, 10, 100]
+                }}
+                data={[
+                    {
+                        title: "all wins",
+                        data: mockData(100, 0)
+                    },
+                    {
+                        title: "home wins",
+                        data: mockData(10, 0)
+                    },
+                    {
+                        title: "away wins",
+                        data: mockData(70, 0)
+                    },
+                    {
+                        title: "all wins",
+                        data: mockData(100, 0, 10)
+                    },
+                    {
+                        title: "all losses",
+                        data: mockData(100, -100)
+                    },
+                    {
+                        title: "home losses",
+                        data: mockData(70, -70)
+                    },
+                    {
+                        title: "away losses",
+                        data: mockData(100, -100)
+                    },
+                    {
+                        title: "all losses",
+                        data: mockData(10, -10, 5)
+                    }
+                ]}
+                domain={[-100, 100]}
+            />
+        </Wrapper>
     ));

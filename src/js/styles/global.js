@@ -2,8 +2,11 @@ import { css } from "react-emotion";
 
 import * as utils from "./utils";
 import defaultColors from "./colours";
+import * as type from "./typefaces";
 
 const globals = css`
+    ${type.typefaces};
+    ${type.display};
     .visuallyhidden {
         ${utils.visuallyhidden};
     }

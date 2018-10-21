@@ -1,6 +1,9 @@
 import React from "react";
 import * as d3 from "d3";
+import { css } from "react-emotion";
 
+import colours from "../../styles/colours";
+import * as type from "../../styles/typefaces";
 import Candlestick from "./Candlestick";
 
 class CandlestickGraph extends React.Component {
@@ -27,21 +30,29 @@ class CandlestickGraph extends React.Component {
     }
 
     render() {
-        console.log(this.props.data);
-
-        const candlesticks = this.props.data.map((item, key) => (
-            <Candlestick
-                key={`candlestick_${key}`}
-                data={item}
-                scale={this.xScale}
-                dimensions={{
-                    x: 0,
-                    y: key * this.props.dimensions.height,
-                    width: this.props.dimensions.width,
-                    height: this.props.dimensions.height
-                }}
-            />
-        ));
+        const axisStyles = css`
+            text {
+                fill: ${colours.black};
+            }
+            font-size: 0.6em;
+            ${type.utility};
+        `;
+        const candlesticks = this.props.data.map((item, key) => {
+            return (
+                <Candlestick
+                    key={`candlestick_${key}`}
+                    data={item.data}
+                    label={item.title}
+                    scale={this.xScale}
+                    dimensions={{
+                        x: 0,
+                        y: key * this.props.dimensions.height,
+                        width: this.props.dimensions.width,
+                        height: this.props.dimensions.height
+                    }}
+                />
+            );
+        });
         return (
             <div key={this.props.results}>
                 <svg
@@ -83,6 +94,7 @@ class CandlestickGraph extends React.Component {
                     <g>
                         <g
                             ref="xAxis"
+                            css={axisStyles}
                             className="axis axis--x frequecy__axis frequecy__axis--x"
                             transform={`translate(${
                                 this.props.dimensions.padding[3]
