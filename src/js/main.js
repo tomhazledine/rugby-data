@@ -1,9 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from "react";
+// import ReactDOM from "react-dom";
 
-import Main from './components/Main';
+// import Main from "./components/Main";
 
-import '../scss/main.scss';
-import './icons';
+// import "../scss/main.scss";
+// import "./icons";
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+// ReactDOM.render(<Main />, document.getElementById("root"));
+
+import "./sandbox/testing";
